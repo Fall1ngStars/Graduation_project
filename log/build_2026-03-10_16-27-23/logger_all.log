@@ -1,0 +1,759 @@
+[0.363s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.363s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa149b1f070>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa149b1ec20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa149b1ec20>>)
+[6.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.525s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/meteor/ROS2/MickRobot/Graduation_project_ws'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(final_captures) by extensions ['ignore', 'ignore_ament_install']
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(final_captures) by extension 'ignore'
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(final_captures) by extension 'ignore_ament_install'
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(final_captures) by extensions ['colcon_pkg']
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(final_captures) by extension 'colcon_pkg'
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(final_captures) by extensions ['colcon_meta']
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(final_captures) by extension 'colcon_meta'
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(final_captures) by extensions ['ros']
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(final_captures) by extension 'ros'
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(final_captures) by extensions ['cmake', 'python']
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(final_captures) by extension 'cmake'
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(final_captures) by extension 'python'
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(final_captures) by extensions ['python_setup_py']
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(final_captures) by extension 'python_setup_py'
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(markers) by extensions ['ignore', 'ignore_ament_install']
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(markers) by extension 'ignore'
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(markers) by extension 'ignore_ament_install'
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(markers) by extensions ['colcon_pkg']
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(markers) by extension 'colcon_pkg'
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(markers) by extensions ['colcon_meta']
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(markers) by extension 'colcon_meta'
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(markers) by extensions ['ros']
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(markers) by extension 'ros'
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(markers) by extensions ['cmake', 'python']
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(markers) by extension 'cmake'
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(markers) by extension 'python'
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(markers) by extensions ['python_setup_py']
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(markers) by extension 'python_setup_py'
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ignore'
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ignore_ament_install'
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['colcon_pkg']
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'colcon_pkg'
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['colcon_meta']
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'colcon_meta'
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['ros']
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ros'
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['cmake', 'python']
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'cmake'
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'python'
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['python_setup_py']
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'python_setup_py'
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['ignore', 'ignore_ament_install']
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ignore'
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ignore_ament_install'
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['colcon_pkg']
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'colcon_pkg'
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['colcon_meta']
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'colcon_meta'
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['ros']
+[6.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ros'
+[6.614s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_camera' with type 'ros.ament_cmake' and name 'orbbec_camera'
+[6.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[6.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ignore'
+[6.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ignore_ament_install'
+[6.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['colcon_pkg']
+[6.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'colcon_pkg'
+[6.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['colcon_meta']
+[6.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'colcon_meta'
+[6.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['ros']
+[6.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ros'
+[6.630s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_camera_msgs' with type 'ros.ament_cmake' and name 'orbbec_camera_msgs'
+[6.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['ignore', 'ignore_ament_install']
+[6.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ignore'
+[6.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ignore_ament_install'
+[6.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['colcon_pkg']
+[6.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'colcon_pkg'
+[6.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['colcon_meta']
+[6.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'colcon_meta'
+[6.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['ros']
+[6.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ros'
+[6.649s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_description' with type 'ros.ament_cmake' and name 'orbbec_description'
+[6.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extensions ['ignore', 'ignore_ament_install']
+[6.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'ignore'
+[6.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'ignore_ament_install'
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extensions ['colcon_pkg']
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'colcon_pkg'
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extensions ['colcon_meta']
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'colcon_meta'
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extensions ['ros']
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'ros'
+[6.665s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_detector' with type 'ros.ament_python' and name 'aruco_detector'
+[6.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_refinement) by extensions ['ignore', 'ignore_ament_install']
+[6.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_refinement) by extension 'ignore'
+[6.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_refinement) by extension 'ignore_ament_install'
+[6.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_refinement) by extensions ['colcon_pkg']
+[6.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_refinement) by extension 'colcon_pkg'
+[6.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_refinement) by extensions ['colcon_meta']
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_refinement) by extension 'colcon_meta'
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_refinement) by extensions ['ros']
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_refinement) by extension 'ros'
+[6.687s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pointcloud_refinement' with type 'ros.ament_python' and name 'pointcloud_refinement'
+[6.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_controller) by extensions ['ignore', 'ignore_ament_install']
+[6.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_controller) by extension 'ignore'
+[6.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_controller) by extension 'ignore_ament_install'
+[6.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_controller) by extensions ['colcon_pkg']
+[6.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_controller) by extension 'colcon_pkg'
+[6.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_controller) by extensions ['colcon_meta']
+[6.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_controller) by extension 'colcon_meta'
+[6.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_controller) by extensions ['ros']
+[6.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_controller) by extension 'ros'
+[6.702s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ranger_controller' with type 'ros.ament_python' and name 'ranger_controller'
+[6.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2) by extensions ['ignore', 'ignore_ament_install']
+[6.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2) by extension 'ignore'
+[6.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2) by extension 'ignore_ament_install'
+[6.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2) by extensions ['colcon_pkg']
+[6.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2) by extension 'colcon_pkg'
+[6.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2) by extensions ['colcon_meta']
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2) by extension 'colcon_meta'
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2) by extensions ['ros']
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2) by extension 'ros'
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2) by extensions ['cmake', 'python']
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2) by extension 'cmake'
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2) by extension 'python'
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2) by extensions ['python_setup_py']
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2) by extension 'python_setup_py'
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/docs) by extensions ['ignore', 'ignore_ament_install']
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/docs) by extension 'ignore'
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/docs) by extension 'ignore_ament_install'
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/docs) by extensions ['colcon_pkg']
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/docs) by extension 'colcon_pkg'
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/docs) by extensions ['colcon_meta']
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/docs) by extension 'colcon_meta'
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/docs) by extensions ['ros']
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/docs) by extension 'ros'
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/docs) by extensions ['cmake', 'python']
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/docs) by extension 'cmake'
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/docs) by extension 'python'
+[6.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/docs) by extensions ['python_setup_py']
+[6.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/docs) by extension 'python_setup_py'
+[6.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_base) by extensions ['ignore', 'ignore_ament_install']
+[6.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_base) by extension 'ignore'
+[6.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_base) by extension 'ignore_ament_install'
+[6.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_base) by extensions ['colcon_pkg']
+[6.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_base) by extension 'colcon_pkg'
+[6.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_base) by extensions ['colcon_meta']
+[6.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_base) by extension 'colcon_meta'
+[6.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_base) by extensions ['ros']
+[6.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_base) by extension 'ros'
+[6.731s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ranger_ros2/ranger_base' with type 'ros.ament_cmake' and name 'ranger_base'
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_bringup) by extensions ['ignore', 'ignore_ament_install']
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_bringup) by extension 'ignore'
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_bringup) by extension 'ignore_ament_install'
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_bringup) by extensions ['colcon_pkg']
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_bringup) by extension 'colcon_pkg'
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_bringup) by extensions ['colcon_meta']
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_bringup) by extension 'colcon_meta'
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_bringup) by extensions ['ros']
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_bringup) by extension 'ros'
+[6.733s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ranger_ros2/ranger_bringup' with type 'ros.ament_cmake' and name 'ranger_bringup'
+[6.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_msgs) by extensions ['ignore', 'ignore_ament_install']
+[6.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_msgs) by extension 'ignore'
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_msgs) by extension 'ignore_ament_install'
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_msgs) by extensions ['colcon_pkg']
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_msgs) by extension 'colcon_pkg'
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_msgs) by extensions ['colcon_meta']
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_msgs) by extension 'colcon_meta'
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_msgs) by extensions ['ros']
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ranger_ros2/ranger_msgs) by extension 'ros'
+[6.735s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ranger_ros2/ranger_msgs' with type 'ros.ament_cmake' and name 'ranger_msgs'
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['ignore', 'ignore_ament_install']
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ignore'
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ignore_ament_install'
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['colcon_pkg']
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'colcon_pkg'
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['colcon_meta']
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'colcon_meta'
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['ros']
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ros'
+[6.745s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sdk' with type 'ros.catkin' and name 'ugv_sdk'
+[6.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.933s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.959s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/meteor/ROS2/MickRobot/Graduation_project_ws/install
+[6.960s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 304 installed packages in /opt/ros/humble
+[6.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.094s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'cmake_args' from command line to 'None'
+[7.094s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'cmake_target' from command line to 'None'
+[7.094s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.094s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[7.094s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'cmake_clean_first' from command line to 'False'
+[7.094s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'cmake_force_configure' from command line to 'False'
+[7.094s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'ament_cmake_args' from command line to 'None'
+[7.094s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[7.094s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.094s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector', 'merge_install': False, 'path': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/aruco_detector', 'symlink_install': False, 'test_result_base': None}
+[7.094s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[7.094s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.095s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs', 'merge_install': False, 'path': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_args' from command line to 'None'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_target' from command line to 'None'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_clean_cache' from command line to 'False'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_clean_first' from command line to 'False'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_force_configure' from command line to 'False'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'ament_cmake_args' from command line to 'None'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'catkin_cmake_args' from command line to 'None'
+[7.095s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.095s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description', 'merge_install': False, 'path': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_description', 'symlink_install': False, 'test_result_base': None}
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_refinement' build argument 'cmake_args' from command line to 'None'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_refinement' build argument 'cmake_target' from command line to 'None'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_refinement' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_refinement' build argument 'cmake_clean_cache' from command line to 'False'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_refinement' build argument 'cmake_clean_first' from command line to 'False'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_refinement' build argument 'cmake_force_configure' from command line to 'False'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_refinement' build argument 'ament_cmake_args' from command line to 'None'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_refinement' build argument 'catkin_cmake_args' from command line to 'None'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_refinement' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.096s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_refinement' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement', 'merge_install': False, 'path': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/pointcloud_refinement', 'symlink_install': False, 'test_result_base': None}
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'ranger_bringup' build argument 'cmake_args' from command line to 'None'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'ranger_bringup' build argument 'cmake_target' from command line to 'None'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'ranger_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'ranger_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'ranger_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'ranger_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'ranger_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'ranger_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[7.096s] Level 5:colcon.colcon_core.verb:set package 'ranger_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.096s] DEBUG:colcon.colcon_core.verb:Building package 'ranger_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup', 'merge_install': False, 'path': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_bringup', 'symlink_install': False, 'test_result_base': None}
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_controller' build argument 'cmake_args' from command line to 'None'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_controller' build argument 'cmake_target' from command line to 'None'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_controller' build argument 'cmake_clean_first' from command line to 'False'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_controller' build argument 'cmake_force_configure' from command line to 'False'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_controller' build argument 'ament_cmake_args' from command line to 'None'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.097s] DEBUG:colcon.colcon_core.verb:Building package 'ranger_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller', 'merge_install': False, 'path': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_controller', 'symlink_install': False, 'test_result_base': None}
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_msgs' build argument 'cmake_args' from command line to 'None'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_msgs' build argument 'cmake_target' from command line to 'None'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[7.097s] Level 5:colcon.colcon_core.verb:set package 'ranger_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.097s] DEBUG:colcon.colcon_core.verb:Building package 'ranger_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs', 'merge_install': False, 'path': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_msgs', 'symlink_install': False, 'test_result_base': None}
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_args' from command line to 'None'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_target' from command line to 'None'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.098s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk', 'merge_install': False, 'path': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk', 'symlink_install': False, 'test_result_base': None}
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_args' from command line to 'None'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_target' from command line to 'None'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_clean_first' from command line to 'False'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_force_configure' from command line to 'False'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'ament_cmake_args' from command line to 'None'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.098s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera', 'merge_install': False, 'path': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera', 'symlink_install': False, 'test_result_base': None}
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'ranger_base' build argument 'cmake_args' from command line to 'None'
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'ranger_base' build argument 'cmake_target' from command line to 'None'
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'ranger_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'ranger_base' build argument 'cmake_clean_cache' from command line to 'False'
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'ranger_base' build argument 'cmake_clean_first' from command line to 'False'
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'ranger_base' build argument 'cmake_force_configure' from command line to 'False'
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'ranger_base' build argument 'ament_cmake_args' from command line to 'None'
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'ranger_base' build argument 'catkin_cmake_args' from command line to 'None'
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'ranger_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.099s] DEBUG:colcon.colcon_core.verb:Building package 'ranger_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base', 'merge_install': False, 'path': '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_base', 'symlink_install': False, 'test_result_base': None}
+[7.099s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.100s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.101s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs' with build type 'ament_cmake'
+[7.101s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs'
+[7.145s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.145s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.166s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_msgs' with build type 'ament_cmake'
+[7.166s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_msgs'
+[7.166s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.172s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk' with build type 'catkin'
+[7.172s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk'
+[7.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.176s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/aruco_detector' with build type 'ament_python'
+[7.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_detector', 'ament_prefix_path')
+[7.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/hook/ament_prefix_path.ps1'
+[7.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/hook/ament_prefix_path.dsv'
+[7.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/hook/ament_prefix_path.sh'
+[7.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.220s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_description' with build type 'ament_cmake'
+[7.221s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_description'
+[7.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.225s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/pointcloud_refinement' with build type 'ament_python'
+[7.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_refinement', 'ament_prefix_path')
+[7.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/pointcloud_refinement/hook/ament_prefix_path.ps1'
+[7.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/pointcloud_refinement/hook/ament_prefix_path.dsv'
+[7.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/pointcloud_refinement/hook/ament_prefix_path.sh'
+[7.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.231s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_bringup' with build type 'ament_cmake'
+[7.231s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_bringup'
+[7.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.235s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_controller' with build type 'ament_python'
+[7.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('ranger_controller', 'ament_prefix_path')
+[7.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ranger_controller/hook/ament_prefix_path.ps1'
+[7.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ranger_controller/hook/ament_prefix_path.dsv'
+[7.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ranger_controller/hook/ament_prefix_path.sh'
+[7.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs -- -j16 -l16
+[7.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_msgs': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_msgs -- -j16 -l16
+[7.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk': /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk -- -j16 -l16
+[7.643s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/aruco_detector'
+[7.643s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_description -- -j16 -l16
+[8.054s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/pointcloud_refinement'
+[8.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.054s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_bringup': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_bringup -- -j16 -l16
+[9.308s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_controller'
+[9.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_bringup' returned '0': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_bringup -- -j16 -l16
+[9.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_bringup': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_bringup
+[9.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_description -- -j16 -l16
+[9.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_description
+[10.271s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_description)
+[10.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_description
+[10.763s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description' for CMake module files
+[10.763s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description' for CMake config files
+[10.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_description', 'cmake_prefix_path')
+[10.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.ps1'
+[10.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.dsv'
+[10.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.sh'
+[10.766s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/bin'
+[10.766s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/lib/pkgconfig/orbbec_description.pc'
+[10.766s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/lib/python3.10/site-packages'
+[10.766s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/bin'
+[10.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/package.ps1'
+[10.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/package.dsv'
+[10.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/package.sh'
+[10.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/package.bash'
+[10.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/package.zsh'
+[10.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/colcon-core/packages/orbbec_description)
+[10.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_description)
+[10.939s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description' for CMake module files
+[10.939s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description' for CMake config files
+[10.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_description', 'cmake_prefix_path')
+[10.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.ps1'
+[10.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.dsv'
+[10.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.sh'
+[10.942s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/bin'
+[10.942s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/lib/pkgconfig/orbbec_description.pc'
+[10.942s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/lib/python3.10/site-packages'
+[10.943s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/bin'
+[10.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/package.ps1'
+[10.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/package.dsv'
+[10.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/package.sh'
+[11.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/package.bash'
+[11.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/orbbec_description/package.zsh'
+[11.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description/share/colcon-core/packages/orbbec_description)
+[11.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ranger_bringup)
+[11.072s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup' for CMake module files
+[11.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_bringup' returned '0': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_bringup
+[11.074s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup' for CMake config files
+[11.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('ranger_bringup', 'cmake_prefix_path')
+[11.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/hook/cmake_prefix_path.ps1'
+[11.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/hook/cmake_prefix_path.dsv'
+[11.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/hook/cmake_prefix_path.sh'
+[11.075s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/bin'
+[11.075s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/lib/pkgconfig/ranger_bringup.pc'
+[11.076s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/lib/python3.10/site-packages'
+[11.076s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/bin'
+[11.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/package.ps1'
+[11.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/package.dsv'
+[11.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/package.sh'
+[11.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/package.bash'
+[11.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/package.zsh'
+[11.078s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/colcon-core/packages/ranger_bringup)
+[11.079s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ranger_bringup)
+[11.079s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup' for CMake module files
+[11.079s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup' for CMake config files
+[11.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('ranger_bringup', 'cmake_prefix_path')
+[11.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/hook/cmake_prefix_path.ps1'
+[11.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/hook/cmake_prefix_path.dsv'
+[11.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/hook/cmake_prefix_path.sh'
+[11.136s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/bin'
+[11.136s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/lib/pkgconfig/ranger_bringup.pc'
+[11.136s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/lib/python3.10/site-packages'
+[11.136s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/bin'
+[11.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/package.ps1'
+[11.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/package.dsv'
+[11.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/package.sh'
+[11.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/package.bash'
+[11.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/ranger_bringup/package.zsh'
+[11.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup/share/colcon-core/packages/ranger_bringup)
+[11.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk -- -j16 -l16
+[11.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk': /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk
+[11.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_msgs' returned '0': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_msgs -- -j16 -l16
+[11.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_msgs': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_msgs
+[11.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs -- -j16 -l16
+[11.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs
+[11.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk
+[11.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'ros_package_path')
+[11.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.ps1'
+[11.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.dsv'
+[11.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.sh'
+[11.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'pkg_config_path')
+[11.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.ps1'
+[11.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.dsv'
+[11.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.sh'
+[11.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'pkg_config_path_multiarch')
+[11.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.ps1'
+[11.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.dsv'
+[11.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.sh'
+[11.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_sdk)
+[11.378s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk' for CMake module files
+[11.380s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk' for CMake config files
+[11.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'cmake_prefix_path')
+[11.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.ps1'
+[11.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.dsv'
+[11.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.sh'
+[11.386s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/lib'
+[11.387s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/bin'
+[11.387s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/lib/pkgconfig/ugv_sdk.pc'
+[11.387s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/lib/python3.10/site-packages'
+[11.387s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/bin'
+[11.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/package.ps1'
+[11.389s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/package.dsv'
+[11.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/package.sh'
+[11.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/package.bash'
+[11.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/ugv_sdk/package.zsh'
+[11.390s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/colcon-core/packages/ugv_sdk)
+[11.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ranger_msgs)
+[11.603s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs' for CMake module files
+[11.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_msgs' returned '0': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_msgs
+[11.605s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs' for CMake config files
+[11.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('ranger_msgs', 'cmake_prefix_path')
+[11.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/hook/cmake_prefix_path.ps1'
+[11.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/hook/cmake_prefix_path.dsv'
+[11.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/hook/cmake_prefix_path.sh'
+[11.607s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/lib'
+[11.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('ranger_msgs', 'ld_library_path_lib')
+[11.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/hook/ld_library_path_lib.ps1'
+[11.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/hook/ld_library_path_lib.dsv'
+[11.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/hook/ld_library_path_lib.sh'
+[11.609s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/bin'
+[11.609s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/lib/pkgconfig/ranger_msgs.pc'
+[11.609s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/lib/python3.10/site-packages'
+[11.609s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/bin'
+[11.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/package.ps1'
+[11.610s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/package.dsv'
+[11.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/package.sh'
+[11.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/package.bash'
+[11.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/package.zsh'
+[11.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/colcon-core/packages/ranger_msgs)
+[11.613s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ranger_msgs)
+[11.613s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs' for CMake module files
+[11.613s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs' for CMake config files
+[11.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('ranger_msgs', 'cmake_prefix_path')
+[11.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/hook/cmake_prefix_path.ps1'
+[11.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/hook/cmake_prefix_path.dsv'
+[11.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/hook/cmake_prefix_path.sh'
+[11.615s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/lib'
+[11.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('ranger_msgs', 'ld_library_path_lib')
+[11.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/hook/ld_library_path_lib.ps1'
+[11.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/hook/ld_library_path_lib.dsv'
+[11.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/hook/ld_library_path_lib.sh'
+[11.617s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/bin'
+[11.617s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/lib/pkgconfig/ranger_msgs.pc'
+[11.617s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/lib/python3.10/site-packages'
+[11.617s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/bin'
+[11.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/package.ps1'
+[11.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/package.dsv'
+[11.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/package.sh'
+[11.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/package.bash'
+[11.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/ranger_msgs/package.zsh'
+[11.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/share/colcon-core/packages/ranger_msgs)
+[11.620s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_base' with build type 'ament_cmake'
+[11.621s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_base'
+[11.621s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.621s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera_msgs)
+[11.642s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs' for CMake module files
+[11.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs
+[11.644s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs' for CMake config files
+[11.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'cmake_prefix_path')
+[11.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.ps1'
+[11.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.dsv'
+[11.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.sh'
+[11.646s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib'
+[11.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'ld_library_path_lib')
+[11.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.ps1'
+[11.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.dsv'
+[11.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.sh'
+[11.648s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/bin'
+[11.648s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/pkgconfig/orbbec_camera_msgs.pc'
+[11.648s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/python3.10/site-packages'
+[11.648s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/bin'
+[11.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.ps1'
+[11.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv'
+[11.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.sh'
+[11.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.bash'
+[11.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.zsh'
+[11.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/colcon-core/packages/orbbec_camera_msgs)
+[11.652s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera_msgs)
+[11.652s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs' for CMake module files
+[11.653s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs' for CMake config files
+[11.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'cmake_prefix_path')
+[11.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.ps1'
+[11.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.dsv'
+[11.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.sh'
+[11.654s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib'
+[11.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'ld_library_path_lib')
+[11.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.ps1'
+[11.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.dsv'
+[11.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.sh'
+[11.656s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/bin'
+[11.656s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/pkgconfig/orbbec_camera_msgs.pc'
+[11.656s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/python3.10/site-packages'
+[11.656s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/bin'
+[11.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.ps1'
+[11.657s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv'
+[11.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.sh'
+[11.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.bash'
+[11.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.zsh'
+[11.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/colcon-core/packages/orbbec_camera_msgs)
+[11.659s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera' with build type 'ament_cmake'
+[11.659s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera'
+[11.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_base': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_base -- -j16 -l16
+[11.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera LD_LIBRARY_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera -- -j16 -l16
+[14.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera LD_LIBRARY_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera -- -j16 -l16
+[14.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera LD_LIBRARY_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera
+[15.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/aruco_detector': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/install.log --single-version-externally-managed install_data
+[15.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/pointcloud_refinement': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pointcloud_refinement build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/install.log --single-version-externally-managed install_data
+[15.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_controller': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ranger_controller build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/install.log --single-version-externally-managed install_data
+[15.445s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera)
+[15.446s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera' for CMake module files
+[15.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera LD_LIBRARY_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera
+[15.447s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera' for CMake config files
+[15.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'cmake_prefix_path')
+[15.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.ps1'
+[15.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.dsv'
+[15.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.sh'
+[15.450s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib'
+[15.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'ld_library_path_lib')
+[15.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.ps1'
+[15.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.dsv'
+[15.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.sh'
+[15.451s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/bin'
+[15.451s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/pkgconfig/orbbec_camera.pc'
+[15.451s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/python3.10/site-packages'
+[15.452s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/bin'
+[15.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/package.ps1'
+[15.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/package.dsv'
+[15.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/package.sh'
+[15.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/package.bash'
+[15.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/package.zsh'
+[15.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/colcon-core/packages/orbbec_camera)
+[15.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera)
+[15.455s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera' for CMake module files
+[15.456s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera' for CMake config files
+[15.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'cmake_prefix_path')
+[15.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.ps1'
+[15.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.dsv'
+[15.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.sh'
+[15.458s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib'
+[15.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'ld_library_path_lib')
+[15.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.ps1'
+[15.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.dsv'
+[15.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.sh'
+[15.460s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/bin'
+[15.460s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/pkgconfig/orbbec_camera.pc'
+[15.460s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/python3.10/site-packages'
+[15.460s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/bin'
+[15.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/package.ps1'
+[15.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/package.dsv'
+[15.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/package.sh'
+[15.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/package.bash'
+[15.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/package.zsh'
+[15.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/colcon-core/packages/orbbec_camera)
+[15.476s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller' for CMake module files
+[15.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_controller' returned '0': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ranger_controller build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/install.log --single-version-externally-managed install_data
+[15.478s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller' for CMake config files
+[15.478s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib'
+[15.478s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/bin'
+[15.478s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/pkgconfig/ranger_controller.pc'
+[15.478s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/python3.10/site-packages'
+[15.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('ranger_controller', 'pythonpath')
+[15.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ranger_controller/hook/pythonpath.ps1'
+[15.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ranger_controller/hook/pythonpath.dsv'
+[15.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ranger_controller/hook/pythonpath.sh'
+[15.482s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/bin'
+[15.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ranger_controller)
+[15.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ranger_controller/package.ps1'
+[15.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ranger_controller/package.dsv'
+[15.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ranger_controller/package.sh'
+[15.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ranger_controller/package.bash'
+[15.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ranger_controller/package.zsh'
+[15.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/colcon-core/packages/ranger_controller)
+[15.493s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement' for CMake module files
+[15.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/pointcloud_refinement' returned '0': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pointcloud_refinement build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/install.log --single-version-externally-managed install_data
+[15.494s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement' for CMake config files
+[15.495s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib'
+[15.495s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/bin'
+[15.495s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/pkgconfig/pointcloud_refinement.pc'
+[15.495s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages'
+[15.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_refinement', 'pythonpath')
+[15.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/pointcloud_refinement/hook/pythonpath.ps1'
+[15.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/pointcloud_refinement/hook/pythonpath.dsv'
+[15.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/pointcloud_refinement/hook/pythonpath.sh'
+[15.497s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/bin'
+[15.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_refinement)
+[15.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/pointcloud_refinement/package.ps1'
+[15.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/pointcloud_refinement/package.dsv'
+[15.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/pointcloud_refinement/package.sh'
+[15.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/pointcloud_refinement/package.bash'
+[15.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/pointcloud_refinement/package.zsh'
+[15.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/colcon-core/packages/pointcloud_refinement)
+[15.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_base' returned '0': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_base -- -j16 -l16
+[15.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_base': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_base
+[15.657s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector' for CMake module files
+[15.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/aruco_detector' returned '0': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/install.log --single-version-externally-managed install_data
+[15.658s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector' for CMake config files
+[15.658s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib'
+[15.658s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/bin'
+[15.658s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/pkgconfig/aruco_detector.pc'
+[15.658s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages'
+[15.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_detector', 'pythonpath')
+[15.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/hook/pythonpath.ps1'
+[15.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/hook/pythonpath.dsv'
+[15.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/hook/pythonpath.sh'
+[15.660s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/bin'
+[15.660s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_detector)
+[15.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/package.ps1'
+[15.662s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/package.dsv'
+[15.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/package.sh'
+[15.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/package.bash'
+[15.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/package.zsh'
+[15.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/colcon-core/packages/aruco_detector)
+[15.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ranger_base)
+[15.721s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base' for CMake module files
+[15.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_base' returned '0': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_base
+[15.723s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base' for CMake config files
+[15.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('ranger_base', 'cmake_prefix_path')
+[15.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/hook/cmake_prefix_path.ps1'
+[15.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/hook/cmake_prefix_path.dsv'
+[15.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/hook/cmake_prefix_path.sh'
+[15.725s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/lib'
+[15.725s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/bin'
+[15.725s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/lib/pkgconfig/ranger_base.pc'
+[15.725s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/lib/python3.10/site-packages'
+[15.725s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/bin'
+[15.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/package.ps1'
+[15.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/package.dsv'
+[15.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/package.sh'
+[15.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/package.bash'
+[15.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/package.zsh'
+[15.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/colcon-core/packages/ranger_base)
+[15.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ranger_base)
+[15.729s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base' for CMake module files
+[15.729s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base' for CMake config files
+[15.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('ranger_base', 'cmake_prefix_path')
+[15.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/hook/cmake_prefix_path.ps1'
+[15.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/hook/cmake_prefix_path.dsv'
+[15.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/hook/cmake_prefix_path.sh'
+[15.731s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/lib'
+[15.731s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/bin'
+[15.731s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/lib/pkgconfig/ranger_base.pc'
+[15.731s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/lib/python3.10/site-packages'
+[15.732s] Level 1:colcon.colcon_core.environment:checking '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/bin'
+[15.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/package.ps1'
+[15.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/package.dsv'
+[15.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/package.sh'
+[15.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/package.bash'
+[15.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/ranger_base/package.zsh'
+[15.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base/share/colcon-core/packages/ranger_base)
+[15.734s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.734s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.735s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.735s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.791s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.804s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.805s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/local_setup.ps1'
+[15.849s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/_local_setup_util_ps1.py'
+[15.868s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/setup.ps1'
+[15.869s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/local_setup.sh'
+[15.870s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/_local_setup_util_sh.py'
+[15.871s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/setup.sh'
+[15.872s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/local_setup.bash'
+[15.911s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/setup.bash'
+[15.913s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/local_setup.zsh'
+[15.927s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/setup.zsh'

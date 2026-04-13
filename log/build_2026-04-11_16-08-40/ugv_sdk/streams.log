@@ -1,0 +1,59 @@
+[0.093s] Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk': /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk -- -j16 -l16
+[1.457s] [ 44%] Built target ugv_sdk
+[1.457s] [ 51%] Built target demo_tracer_robot
+[1.457s] [ 58%] Built target demo_scout_mini_omni_robot
+[1.458s] [ 65%] Built target demo_bunker_robot
+[1.458s] [ 72%] Built target demo_hunter_robot
+[1.458s] [ 79%] Built target demo_scout_robot
+[1.458s] [ 86%] Built target demo_robot_version
+[1.458s] [ 93%] Built target demo_protocol_detector
+[1.458s] [100%] Built target demo_ranger_robot
+[1.459s] Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk -- -j16 -l16
+[1.478s] Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk': /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk
+[2.106s] -- Install configuration: "Release"
+[2.107s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/lib/libugv_sdk.a
+[2.108s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk
+[2.108s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/utilities
+[2.108s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp
+[2.108s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot
+[2.109s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp
+[2.109s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp
+[2.109s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp
+[2.109s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp
+[2.109s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp
+[2.109s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp
+[2.109s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details
+[2.109s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2
+[2.109s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp
+[2.110s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp
+[2.110s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface
+[2.110s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp
+[2.110s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp
+[2.110s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp
+[2.110s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h
+[2.110s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h
+[2.110s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp
+[2.112s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp
+[2.112s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp
+[2.112s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp
+[2.113s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/async_port
+[2.113s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp
+[2.115s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp
+[2.115s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp
+[2.116s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1
+[2.116s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h
+[2.116s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp
+[2.117s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp
+[2.117s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base
+[2.117s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp
+[2.117s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp
+[2.117s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp
+[2.117s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp
+[2.118s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp
+[2.118s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp
+[2.118s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp
+[2.119s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake
+[2.119s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake
+[2.119s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake
+[2.119s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake
+[2.167s] Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk

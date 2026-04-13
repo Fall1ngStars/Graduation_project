@@ -1,0 +1,57 @@
+In file included from [01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/src/mobile_robot/bunker_robot.cpp:11[m[K:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:[m[K In member function ‘[01m[Kwestonrobot::BunkerActuatorState westonrobot::BunkerBase<ParserType>::GetActuatorState() [with ParserType = westonrobot::ProtocolV2Parser][m[K’:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:59:7:[m[K [01;35m[Kwarning: [m[Kiteration 2 invokes undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggressive-loop-optimizations-Waggressive-loop-optimizations]8;;[m[K]
+   59 |       [01;35m[Kbunker_actuator[m[K.actuator_state[i] = actuator.actuator_state[i];
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:56:23:[m[K [01;36m[Knote: [m[Kwithin this loop
+   56 |     for (int i = 0; [01;36m[Ki < 3[m[K; ++i) {
+      |                     [01;36m[K~~^~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:[m[K In member function ‘[01m[Kwestonrobot::BunkerActuatorState westonrobot::BunkerBase<ParserType>::GetActuatorState() [with ParserType = westonrobot::ProtocolV1Parser<westonrobot::BunkerLimits>][m[K’:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:59:7:[m[K [01;35m[Kwarning: [m[Kiteration 2 invokes undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggressive-loop-optimizations-Waggressive-loop-optimizations]8;;[m[K]
+   59 |       [01;35m[Kbunker_actuator[m[K.actuator_state[i] = actuator.actuator_state[i];
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:56:23:[m[K [01;36m[Knote: [m[Kwithin this loop
+   56 |     for (int i = 0; [01;36m[Ki < 3[m[K; ++i) {
+      |                     [01;36m[K~~^~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:[m[K In member function ‘[01m[Kwestonrobot::BunkerActuatorState westonrobot::BunkerBase<ParserType>::GetActuatorState() [with ParserType = westonrobot::ProtocolV2Parser][m[K’:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:59:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* __builtin_memcpy(void*, const void*, long unsigned int)[m[K’ writing 60 bytes into a region of size 40 overflows the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+   59 |       [01;35m[Kbunker_actuator[m[K.actuator_state[i] = actuator.actuator_state[i];
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:51:23:[m[K [01;36m[Knote: [m[Kat offset 104 into destination object ‘[01m[K‘result_decl’ not supported by dump_expr<expression error>[m[K’ of size 144
+   51 |   BunkerActuatorState [01;36m[KGetActuatorState[m[K() override {
+      |                       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:[m[K In member function ‘[01m[Kwestonrobot::BunkerActuatorState westonrobot::BunkerBase<ParserType>::GetActuatorState() [with ParserType = westonrobot::ProtocolV1Parser<westonrobot::BunkerLimits>][m[K’:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:59:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* __builtin_memcpy(void*, const void*, long unsigned int)[m[K’ writing 60 bytes into a region of size 40 overflows the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+   59 |       [01;35m[Kbunker_actuator[m[K.actuator_state[i] = actuator.actuator_state[i];
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:51:23:[m[K [01;36m[Knote: [m[Kat offset 104 into destination object ‘[01m[K‘result_decl’ not supported by dump_expr<expression error>[m[K’ of size 144
+   51 |   BunkerActuatorState [01;36m[KGetActuatorState[m[K() override {
+      |                       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:37:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   37 |   [01;35m[Ktracer->Connect(device_name)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:38:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   38 |   [01;35m[Ktracer->EnableCommandedMode()[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:42:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   42 |   [01;35m[Ktracer->SetLightCommand(CONST_OFF, 0)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:45:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   45 |   [01;35m[Ktracer->SetLightCommand(CONST_ON, 0)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:48:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   48 |   [01;35m[Ktracer->SetLightCommand(BREATH, 0)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:51:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   51 |   [01;35m[Ktracer->SetLightCommand(CUSTOM, 30)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:55:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   55 |   [01;35m[Ktracer->SetLightCommand(CONST_OFF, 0)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:61:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   61 |     [01;35m[Ktracer->SetMotionCommand(1.0, 0.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:64:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   64 |     auto state = [01;35m[Ktracer->GetRobotState()[m[K;
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K

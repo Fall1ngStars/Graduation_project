@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7e8938ba5b8f033b3b84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ranger_msgs__py",
+					"jsonFile" : "directory-ranger_msgs__py-351c0ee4f1a2232a8ca4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_msgs/ranger_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ranger_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ranger_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ranger_msgs_egg-168abb55156a61f89aef.json",
+					"name" : "ament_cmake_python_build_ranger_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ranger_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ranger_msgs-29ac69dc441d29b9c380.json",
+					"name" : "ament_cmake_python_copy_ranger_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_msgs-005b86e67dd1f25e9e18.json",
+					"name" : "ranger_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_msgs__cpp-66e4c92490ef10413fef.json",
+					"name" : "ranger_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ranger_msgs__py::@2a99a6637ac03a59da3a",
+					"jsonFile" : "target-ranger_msgs__py-25909f45bee3c3dc2672.json",
+					"name" : "ranger_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_msgs__rosidl_generator_c-8aea93749b0877823ddb.json",
+					"name" : "ranger_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_msgs__rosidl_generator_py-cb6e07905b8d13a0bf30.json",
+					"name" : "ranger_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_msgs__rosidl_typesupport_c-bb96ce810dec0e3ed9ad.json",
+					"name" : "ranger_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_msgs__rosidl_typesupport_c__pyext-8f7c5819411ebc31d968.json",
+					"name" : "ranger_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_msgs__rosidl_typesupport_cpp-199c4a8c58509b3dd2c6.json",
+					"name" : "ranger_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_msgs__rosidl_typesupport_fastrtps_c-d34645b60c09f01b529a.json",
+					"name" : "ranger_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_msgs__rosidl_typesupport_fastrtps_c__pyext-c9c05cbf9e9db5be3cde.json",
+					"name" : "ranger_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_msgs__rosidl_typesupport_fastrtps_cpp-de88b5815138a71e8952.json",
+					"name" : "ranger_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_msgs__rosidl_typesupport_introspection_c-517a3c5f6be68995edfb.json",
+					"name" : "ranger_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_msgs__rosidl_typesupport_introspection_c__pyext-e61429af024b1e062c37.json",
+					"name" : "ranger_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_msgs__rosidl_typesupport_introspection_cpp-1d6e36cb8cce33fab128.json",
+					"name" : "ranger_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_msgs_uninstall-fa5eab9fa8a933704532.json",
+					"name" : "ranger_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-11fc81614ef55054a762.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_msgs",
+		"source" : "/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

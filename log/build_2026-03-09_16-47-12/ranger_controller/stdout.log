@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/ranger_controller/ranger_controller.egg-info
+writing ../../build/ranger_controller/ranger_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/ranger_controller/ranger_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/ranger_controller/ranger_controller.egg-info/entry_points.txt
+writing requirements to ../../build/ranger_controller/ranger_controller.egg-info/requires.txt
+writing top-level names to ../../build/ranger_controller/ranger_controller.egg-info/top_level.txt
+writing manifest file '../../build/ranger_controller/ranger_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/ranger_controller/ranger_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/ranger_controller/ranger_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/build
+creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/build/lib
+creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/build/lib/ranger_controller
+copying ranger_controller/__init__.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/build/lib/ranger_controller
+copying ranger_controller/aruco_follower_node.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/build/lib/ranger_controller
+running install
+running install_lib
+creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/python3.10/site-packages/ranger_controller
+copying /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/build/lib/ranger_controller/__init__.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/python3.10/site-packages/ranger_controller
+copying /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/build/lib/ranger_controller/aruco_follower_node.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/python3.10/site-packages/ranger_controller
+byte-compiling /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/python3.10/site-packages/ranger_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/python3.10/site-packages/ranger_controller/aruco_follower_node.py to aruco_follower_node.cpython-310.pyc
+running install_data
+creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ament_index
+creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ament_index/resource_index
+creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ament_index/resource_index/packages
+copying resource/ranger_controller -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/share/ranger_controller
+running install_egg_info
+Copying ../../build/ranger_controller/ranger_controller.egg-info to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/python3.10/site-packages/ranger_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing aruco_follower_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/ranger_controller
+writing list of installed files to '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/install.log'

@@ -1,0 +1,5 @@
+[console_scripts]
+pointcloud_capture_tool = pointcloud_refinement.capture_tool:main
+pointcloud_controller_node = pointcloud_refinement.pointcloud_controller_node:main
+pointcloud_refinement_node = pointcloud_refinement.refinement_node:main
+

@@ -1,0 +1,17 @@
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:msg/DeviceInfo.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:msg/DeviceStatus.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:msg/Extrinsics.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:msg/Metadata.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:msg/IMUInfo.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:msg/RGBD.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/GetBool.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/GetDeviceInfo.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/GetCameraInfo.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/GetInt32.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/GetString.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/SetFilter.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/SetInt32.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/SetString.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/SetArrays.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/GetUserCalibParams.idl
+/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs/rosidl_adapter/orbbec_camera_msgs:srv/SetUserCalibParams.idl

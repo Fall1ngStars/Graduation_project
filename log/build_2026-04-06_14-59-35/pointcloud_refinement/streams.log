@@ -1,0 +1,23 @@
+[7.670s] Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/pointcloud_refinement': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pointcloud_refinement build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/install.log --single-version-externally-managed install_data
+[7.941s] running egg_info
+[7.942s] writing ../../build/pointcloud_refinement/pointcloud_refinement.egg-info/PKG-INFO
+[7.942s] writing dependency_links to ../../build/pointcloud_refinement/pointcloud_refinement.egg-info/dependency_links.txt
+[7.942s] writing entry points to ../../build/pointcloud_refinement/pointcloud_refinement.egg-info/entry_points.txt
+[7.942s] writing requirements to ../../build/pointcloud_refinement/pointcloud_refinement.egg-info/requires.txt
+[7.942s] writing top-level names to ../../build/pointcloud_refinement/pointcloud_refinement.egg-info/top_level.txt
+[7.944s] reading manifest file '../../build/pointcloud_refinement/pointcloud_refinement.egg-info/SOURCES.txt'
+[7.962s] writing manifest file '../../build/pointcloud_refinement/pointcloud_refinement.egg-info/SOURCES.txt'
+[7.962s] running build
+[7.962s] running build_py
+[7.962s] running install
+[7.963s] running install_lib
+[7.964s] running install_data
+[7.964s] running install_egg_info
+[7.965s] removing '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages/pointcloud_refinement-0.0.0-py3.10.egg-info' (and everything under it)
+[7.966s] Copying ../../build/pointcloud_refinement/pointcloud_refinement.egg-info to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages/pointcloud_refinement-0.0.0-py3.10.egg-info
+[7.975s] running install_scripts
+[7.991s] Installing pointcloud_capture_tool script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/pointcloud_refinement
+[7.992s] Installing pointcloud_controller_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/pointcloud_refinement
+[7.992s] Installing pointcloud_refinement_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/pointcloud_refinement
+[7.992s] writing list of installed files to '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/install.log'
+[8.022s] Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/pointcloud_refinement' returned '0': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pointcloud_refinement build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/install.log --single-version-externally-managed install_data

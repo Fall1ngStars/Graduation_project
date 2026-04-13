@@ -1,0 +1,12 @@
+In file included from [01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_base/src/ranger_messenger.cpp:12[m[K:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_base/include/ranger_base/kinematics_model.hpp:[m[K In member function ‘[01m[Kvoid westonrobot::SpinningModel::operator()(const state_type&, westonrobot::SpinningModel::state_type&, double)[m[K’:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_base/include/ranger_base/kinematics_model.hpp:90:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   90 |   void operator()([01;35m[Kconst state_type& x[m[K, state_type& xd, double) {
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_base/src/ranger_messenger.cpp:[m[K In member function ‘[01m[Kdouble westonrobot::RangerROSMessenger::CalculateSteeringAngle(geometry_msgs::msg::Twist, double&)[m[K’:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_base/src/ranger_messenger.cpp:514:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kw[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  514 |   double l, [01;35m[Kw[m[K, phi_i, x;
+      |             [01;35m[K^[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_ros2/ranger_base/src/ranger_messenger.cpp:514:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kx[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  514 |   double l, w, phi_i, [01;35m[Kx[m[K;
+      |                       [01;35m[K^[m[K

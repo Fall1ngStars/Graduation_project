@@ -1,0 +1,45 @@
+[1.000s] Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/pointcloud_refinement': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pointcloud_refinement build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/install.log --single-version-externally-managed install_data
+[1.184s] running egg_info
+[1.185s] creating ../../build/pointcloud_refinement/pointcloud_refinement.egg-info
+[1.185s] writing ../../build/pointcloud_refinement/pointcloud_refinement.egg-info/PKG-INFO
+[1.185s] writing dependency_links to ../../build/pointcloud_refinement/pointcloud_refinement.egg-info/dependency_links.txt
+[1.185s] writing entry points to ../../build/pointcloud_refinement/pointcloud_refinement.egg-info/entry_points.txt
+[1.185s] writing requirements to ../../build/pointcloud_refinement/pointcloud_refinement.egg-info/requires.txt
+[1.185s] writing top-level names to ../../build/pointcloud_refinement/pointcloud_refinement.egg-info/top_level.txt
+[1.185s] writing manifest file '../../build/pointcloud_refinement/pointcloud_refinement.egg-info/SOURCES.txt'
+[1.186s] reading manifest file '../../build/pointcloud_refinement/pointcloud_refinement.egg-info/SOURCES.txt'
+[1.187s] writing manifest file '../../build/pointcloud_refinement/pointcloud_refinement.egg-info/SOURCES.txt'
+[1.187s] running build
+[1.187s] running build_py
+[1.187s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build
+[1.187s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build/lib
+[1.187s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build/lib/pointcloud_refinement
+[1.187s] copying pointcloud_refinement/capture_tool.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build/lib/pointcloud_refinement
+[1.187s] copying pointcloud_refinement/refinement_node.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build/lib/pointcloud_refinement
+[1.187s] copying pointcloud_refinement/__init__.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build/lib/pointcloud_refinement
+[1.188s] copying pointcloud_refinement/pointcloud_controller_node.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build/lib/pointcloud_refinement
+[1.216s] running install
+[1.216s] running install_lib
+[1.217s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages/pointcloud_refinement
+[1.217s] copying /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build/lib/pointcloud_refinement/capture_tool.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages/pointcloud_refinement
+[1.217s] copying /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build/lib/pointcloud_refinement/refinement_node.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages/pointcloud_refinement
+[1.217s] copying /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build/lib/pointcloud_refinement/__init__.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages/pointcloud_refinement
+[1.217s] copying /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build/lib/pointcloud_refinement/pointcloud_controller_node.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages/pointcloud_refinement
+[1.217s] byte-compiling /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages/pointcloud_refinement/capture_tool.py to capture_tool.cpython-310.pyc
+[1.219s] byte-compiling /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages/pointcloud_refinement/refinement_node.py to refinement_node.cpython-310.pyc
+[1.220s] byte-compiling /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages/pointcloud_refinement/__init__.py to __init__.cpython-310.pyc
+[1.220s] byte-compiling /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages/pointcloud_refinement/pointcloud_controller_node.py to pointcloud_controller_node.cpython-310.pyc
+[1.221s] running install_data
+[1.221s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/ament_index
+[1.221s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/ament_index/resource_index
+[1.221s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/ament_index/resource_index/packages
+[1.222s] copying resource/pointcloud_refinement -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/ament_index/resource_index/packages
+[1.222s] copying package.xml -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/share/pointcloud_refinement
+[1.222s] running install_egg_info
+[1.222s] Copying ../../build/pointcloud_refinement/pointcloud_refinement.egg-info to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages/pointcloud_refinement-0.0.0-py3.10.egg-info
+[1.223s] running install_scripts
+[1.238s] Installing pointcloud_capture_tool script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/pointcloud_refinement
+[1.238s] Installing pointcloud_controller_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/pointcloud_refinement
+[1.238s] Installing pointcloud_refinement_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/pointcloud_refinement
+[1.238s] writing list of installed files to '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/install.log'
+[1.268s] Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/pointcloud_refinement' returned '0': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pointcloud_refinement build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/pointcloud_refinement/install.log --single-version-externally-managed install_data

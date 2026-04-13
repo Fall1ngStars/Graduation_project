@@ -1,0 +1,732 @@
+[0.046s] Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meteor/ROS2/MickRobot/mick_robot_ws/install/path_tracking:/home/meteor/ROS2/MickRobot/mick_robot_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake /home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs
+[0.485s] -- The C compiler identification is GNU 11.4.0
+[0.486s] -- The CXX compiler identification is GNU 11.4.0
+[0.486s] -- Detecting C compiler ABI info
+[0.539s] -- Detecting C compiler ABI info - done
+[0.544s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.544s] -- Detecting C compile features
+[0.565s] -- Detecting C compile features - done
+[0.611s] -- Detecting CXX compiler ABI info
+[0.676s] -- Detecting CXX compiler ABI info - done
+[0.682s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.682s] -- Detecting CXX compile features
+[0.682s] -- Detecting CXX compile features - done
+[1.126s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.410s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.241s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.802s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.187s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.057s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.379s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.243s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.521s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.832s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.851s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.853s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.023s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.023s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.023s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.024s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.039s] -- Found PythonExtra: .so  
+[6.173s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.318s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.321s] -- Added test 'lint_cmake' to check CMake code style
+[6.323s] -- Added test 'xmllint' to check XML markup files
+[6.325s] -- Configuring done
+[6.394s] -- Generating done
+[6.405s] -- Build files have been written to: /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs
+[6.414s] Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meteor/ROS2/MickRobot/mick_robot_ws/install/path_tracking:/home/meteor/ROS2/MickRobot/mick_robot_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake /home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs
+[6.414s] Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meteor/ROS2/MickRobot/mick_robot_ws/install/path_tracking:/home/meteor/ROS2/MickRobot/mick_robot_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs -- -j16 -l16
+[6.449s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.457s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.464s] [  0%] Built target ament_cmake_python_copy_orbbec_camera_msgs
+[6.662s] running egg_info
+[6.662s] creating orbbec_camera_msgs.egg-info
+[6.662s] writing orbbec_camera_msgs.egg-info/PKG-INFO
+[6.662s] writing dependency_links to orbbec_camera_msgs.egg-info/dependency_links.txt
+[6.662s] writing top-level names to orbbec_camera_msgs.egg-info/top_level.txt
+[6.663s] writing manifest file 'orbbec_camera_msgs.egg-info/SOURCES.txt'
+[6.664s] reading manifest file 'orbbec_camera_msgs.egg-info/SOURCES.txt'
+[6.665s] writing manifest file 'orbbec_camera_msgs.egg-info/SOURCES.txt'
+[6.685s] [  0%] Built target ament_cmake_python_build_orbbec_camera_msgs_egg
+[8.172s] [  0%] Built target orbbec_camera_msgs__cpp
+[8.184s] [  1%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.185s] [  1%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.185s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.393s] [  3%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/device_info__functions.c.o[0m
+[8.394s] [  4%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/device_status__functions.c.o[0m
+[8.401s] [  4%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/extrinsics__functions.c.o[0m
+[8.408s] [  5%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/metadata__functions.c.o[0m
+[8.422s] [  6%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/imu_info__functions.c.o[0m
+[8.428s] [  6%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_device_info__functions.c.o[0m
+[8.431s] [  6%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/rgbd__functions.c.o[0m
+[8.432s] [  8%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_camera_info__functions.c.o[0m
+[8.432s] [  8%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_bool__functions.c.o[0m
+[8.437s] [  8%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_string__functions.c.o[0m
+[8.443s] [  9%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/set_filter__functions.c.o[0m
+[8.444s] [ 11%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/set_int32__functions.c.o[0m
+[8.448s] [ 11%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_int32__functions.c.o[0m
+[8.598s] [ 11%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_user_calib_params__functions.c.o[0m
+[8.598s] [ 11%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/set_string__functions.c.o[0m
+[8.599s] [ 12%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/set_arrays__functions.c.o[0m
+[8.599s] [ 13%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/set_user_calib_params__functions.c.o[0m
+[8.796s] [ 14%] [32m[1mLinking C shared library liborbbec_camera_msgs__rosidl_generator_c.so[0m
+[8.857s] [ 14%] Built target orbbec_camera_msgs__rosidl_generator_c
+[8.875s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.875s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.875s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.248s] [ 17%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/device_info__type_support.cpp.o[0m
+[9.249s] [ 18%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/device_status__type_support.cpp.o[0m
+[9.252s] [ 20%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[9.253s] [ 21%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[9.255s] [ 21%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_bool__type_support.cpp.o[0m
+[9.255s] [ 21%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[9.256s] [ 21%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[9.270s] [ 22%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_camera_info__type_support.cpp.o[0m
+[9.270s] [ 22%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_int32__type_support.cpp.o[0m
+[9.270s] [ 23%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_device_info__type_support.cpp.o[0m
+[9.285s] [ 24%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_string__type_support.cpp.o[0m
+[9.298s] [ 25%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/device_info__type_support.cpp.o[0m
+[9.608s] [ 25%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/device_status__type_support.cpp.o[0m
+[9.626s] [ 26%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/extrinsics__type_support.cpp.o[0m
+[9.629s] [ 26%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/set_filter__type_support.cpp.o[0m
+[9.633s] [ 27%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/set_int32__type_support.cpp.o[0m
+[9.633s] [ 28%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/set_string__type_support.cpp.o[0m
+[9.647s] [ 28%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/set_arrays__type_support.cpp.o[0m
+[9.688s] [ 29%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/metadata__type_support.cpp.o[0m
+[9.708s] [ 30%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_user_calib_params__type_support.cpp.o[0m
+[9.708s] [ 30%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/imu_info__type_support.cpp.o[0m
+[9.743s] [ 31%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/set_user_calib_params__type_support.cpp.o[0m
+[9.761s] [ 32%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/rgbd__type_support.cpp.o[0m
+[9.889s] [ 33%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_bool__type_support.cpp.o[0m
+[9.987s] [ 33%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_device_info__type_support.cpp.o[0m
+[10.034s] [ 34%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.cpp.o[0m
+[10.047s] [ 34%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_int32__type_support.cpp.o[0m
+[10.065s] [ 35%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_string__type_support.cpp.o[0m
+[10.079s] [ 36%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/set_filter__type_support.cpp.o[0m
+[10.141s] [ 36%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/set_int32__type_support.cpp.o[0m
+[10.146s] [ 37%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/device_info__type_support.cpp.o[0m
+[10.155s] [ 37%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/device_status__type_support.cpp.o[0m
+[10.157s] [ 37%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_cpp.so[0m
+[10.204s] [ 38%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o[0m
+[10.215s] [ 38%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/device_info__type_support.cpp.o[0m
+[10.260s] [ 39%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/device_status__type_support.cpp.o[0m
+[10.263s] [ 39%] Built target orbbec_camera_msgs__rosidl_typesupport_cpp
+[10.278s] [ 40%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[10.290s] [ 41%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o[0m
+[10.327s] [ 41%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[10.371s] [ 42%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/set_string__type_support.cpp.o[0m
+[10.402s] [ 43%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/set_arrays__type_support.cpp.o[0m
+[10.416s] [ 44%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[10.482s] [ 44%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[10.498s] [ 44%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o[0m
+[10.536s] [ 44%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_user_calib_params__type_support.cpp.o[0m
+[10.570s] [ 45%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_bool__type_support.cpp.o[0m
+[10.577s] [ 46%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_device_info__type_support.cpp.o[0m
+[10.644s] [ 47%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/rgbd__type_support.cpp.o[0m
+[10.647s] [ 47%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_camera_info__type_support.cpp.o[0m
+[10.653s] [ 48%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/set_user_calib_params__type_support.cpp.o[0m
+[10.708s] [ 49%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_string__type_support.cpp.o[0m
+[10.709s] [ 50%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_int32__type_support.cpp.o[0m
+[10.709s] [ 50%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_bool__type_support.cpp.o[0m
+[10.713s] [ 51%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_device_info__type_support.cpp.o[0m
+[10.770s] [ 51%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/set_filter__type_support.cpp.o[0m
+[10.782s] [ 52%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/set_int32__type_support.cpp.o[0m
+[10.795s] [ 53%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_camera_info__type_support.cpp.o[0m
+[10.795s] [ 53%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/set_string__type_support.cpp.o[0m
+[10.846s] [ 53%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_int32__type_support.cpp.o[0m
+[10.847s] [ 54%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/set_arrays__type_support.cpp.o[0m
+[10.849s] [ 56%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_string__type_support.cpp.o[0m
+[10.851s] [ 56%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/set_filter__type_support.cpp.o[0m
+[10.890s] [ 56%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/set_int32__type_support.cpp.o[0m
+[10.926s] [ 57%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_user_calib_params__type_support.cpp.o[0m
+[11.007s] [ 57%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/set_user_calib_params__type_support.cpp.o[0m
+[11.055s] [ 58%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/set_string__type_support.cpp.o[0m
+[11.076s] [ 58%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/set_arrays__type_support.cpp.o[0m
+[11.086s] [ 59%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/device_info__type_support.c.o[0m
+[11.089s] [ 60%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_c.so[0m
+[11.096s] [ 61%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_user_calib_params__type_support.cpp.o[0m
+[11.155s] [ 61%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/device_status__type_support.c.o[0m
+[11.207s] [ 61%] Built target orbbec_camera_msgs__rosidl_typesupport_c
+[11.229s] [ 61%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/device_info__type_support_c.cpp.o[0m
+[11.230s] [ 62%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/extrinsics__type_support.c.o[0m
+[11.230s] [ 63%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/set_user_calib_params__type_support.cpp.o[0m
+[11.245s] [ 64%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/device_status__type_support_c.cpp.o[0m
+[11.278s] [ 64%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/metadata__type_support.c.o[0m
+[11.291s] [ 65%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.292s] [ 66%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/imu_info__type_support.c.o[0m
+[11.334s] [ 67%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o[0m
+[11.357s] [ 68%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/rgbd__type_support.c.o[0m
+[11.361s] [ 68%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/metadata__type_support_c.cpp.o[0m
+[11.391s] [ 69%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/imu_info__type_support_c.cpp.o[0m
+[11.473s] [ 70%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/rgbd__type_support_c.cpp.o[0m
+[11.488s] [ 70%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_bool__type_support.c.o[0m
+[11.501s] [ 70%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_bool__type_support_c.cpp.o[0m
+[11.510s] [ 71%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_device_info__type_support_c.cpp.o[0m
+[11.534s] [ 71%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_camera_info__type_support_c.cpp.o[0m
+[11.550s] [ 71%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_cpp
+[11.571s] [ 72%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_int32__type_support_c.cpp.o[0m
+[11.590s] [ 73%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_device_info__type_support.c.o[0m
+[11.656s] [ 74%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.c.o[0m
+[11.716s] [ 75%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_string__type_support_c.cpp.o[0m
+[11.720s] [ 75%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/set_filter__type_support_c.cpp.o[0m
+[11.769s] [ 75%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_int32__type_support.c.o[0m
+[11.826s] [ 76%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_string__type_support.c.o[0m
+[11.843s] [ 77%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/set_filter__type_support.c.o[0m
+[11.875s] [ 77%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/set_int32__type_support.c.o[0m
+[11.877s] [ 78%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/set_int32__type_support_c.cpp.o[0m
+[11.883s] [ 79%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/set_string__type_support_c.cpp.o[0m
+[11.886s] [ 79%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/set_arrays__type_support_c.cpp.o[0m
+[11.891s] [ 80%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/set_string__type_support.c.o[0m
+[11.964s] [ 80%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.965s] [ 81%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_user_calib_params__type_support.c.o[0m
+[11.967s] [ 81%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/set_arrays__type_support.c.o[0m
+[11.970s] [ 82%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_user_calib_params__type_support_c.cpp.o[0m
+[11.971s] [ 83%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/set_user_calib_params__type_support.c.o[0m
+[11.971s] [ 84%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/set_user_calib_params__type_support_c.cpp.o[0m
+[12.077s] [ 84%] [32m[1mLinking C shared library liborbbec_camera_msgs__rosidl_typesupport_introspection_c.so[0m
+[12.172s] [ 84%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[12.172s] [ 84%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_c
+[12.406s] [ 84%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.489s] [ 84%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c
+[12.510s] [ 84%] Built target orbbec_camera_msgs
+[12.531s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.391s] [ 85%] Built target orbbec_camera_msgs__py
+[14.414s] [ 88%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_extrinsics_s.c.o[0m
+[14.414s] [ 88%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_metadata_s.c.o[0m
+[14.414s] [ 88%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_rgbd_s.c.o[0m
+[14.415s] [ 89%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_device_status_s.c.o[0m
+[14.415s] [ 89%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_bool_s.c.o[0m
+[14.415s] [ 88%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_imu_info_s.c.o[0m
+[14.415s] [ 88%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_device_info_s.c.o[0m
+[14.416s] [ 90%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_camera_info_s.c.o[0m
+[14.416s] [ 93%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_set_filter_s.c.o[0m
+[14.416s] [ 93%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_set_int32_s.c.o[0m
+[14.417s] [ 93%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_string_s.c.o[0m
+[14.417s] [ 93%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_int32_s.c.o[0m
+[14.417s] [ 93%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_device_info_s.c.o[0m
+[14.417s] [ 93%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_set_arrays_s.c.o[0m
+[14.417s] [ 94%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_set_string_s.c.o[0m
+[14.417s] [ 95%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_user_calib_params_s.c.o[0m
+[14.554s] [ 95%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_set_user_calib_params_s.c.o[0m
+[14.645s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/liborbbec_camera_msgs__rosidl_generator_py.so[0m
+[14.685s] [ 96%] Built target orbbec_camera_msgs__rosidl_generator_py
+[14.703s] [ 97%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.704s] [ 98%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.704s] [ 99%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.843s] [100%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.843s] [100%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.845s] [100%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.881s] [100%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[14.882s] [100%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.882s] [100%] Built target orbbec_camera_msgs__rosidl_typesupport_c__pyext
+[14.895s] Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meteor/ROS2/MickRobot/mick_robot_ws/install/path_tracking:/home/meteor/ROS2/MickRobot/mick_robot_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs -- -j16 -l16
+[14.897s] Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meteor/ROS2/MickRobot/mick_robot_ws/install/path_tracking:/home/meteor/ROS2/MickRobot/mick_robot_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs
+[14.904s] -- Install configuration: ""
+[14.904s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/orbbec_camera_msgs
+[14.905s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs
+[14.905s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg
+[14.905s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail
+[14.905s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__functions.c
+[14.905s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__struct.h
+[14.905s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.h
+[14.905s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__functions.h
+[14.905s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__functions.c
+[14.905s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__functions.h
+[14.905s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__functions.c
+[14.906s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__functions.h
+[14.906s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.h
+[14.906s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__struct.h
+[14.906s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__struct.h
+[14.906s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__struct.h
+[14.906s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__functions.h
+[14.906s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__functions.c
+[14.906s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__functions.h
+[14.906s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__functions.h
+[14.907s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__struct.h
+[14.907s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__type_support.h
+[14.907s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__struct.h
+[14.907s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__functions.c
+[14.907s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__functions.c
+[14.907s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__type_support.h
+[14.907s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.h
+[14.907s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__type_support.h
+[14.907s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/device_info.h
+[14.908s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[14.908s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/device_status.h
+[14.908s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/extrinsics.h
+[14.908s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rgbd.h
+[14.908s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/imu_info.h
+[14.908s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/metadata.h
+[14.908s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv
+[14.908s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_user_calib_params.h
+[14.908s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_string.h
+[14.908s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_string.h
+[14.908s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail
+[14.909s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__struct.h
+[14.909s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__struct.h
+[14.909s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.h
+[14.909s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__struct.h
+[14.909s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__functions.c
+[14.909s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__functions.h
+[14.909s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__functions.c
+[14.909s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__functions.h
+[14.909s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__functions.h
+[14.909s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.h
+[14.910s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__functions.c
+[14.910s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.h
+[14.910s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__functions.c
+[14.910s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__functions.c
+[14.910s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__struct.h
+[14.910s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__functions.h
+[14.910s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.h
+[14.910s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__type_support.h
+[14.910s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__functions.c
+[14.911s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__struct.h
+[14.911s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__struct.h
+[14.911s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__type_support.h
+[14.911s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__struct.h
+[14.911s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__functions.h
+[14.911s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__functions.c
+[14.911s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__functions.h
+[14.911s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__functions.h
+[14.911s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.h
+[14.912s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__functions.h
+[14.912s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__functions.h
+[14.912s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__struct.h
+[14.912s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__functions.h
+[14.912s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__struct.h
+[14.912s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__functions.c
+[14.912s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__struct.h
+[14.912s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__functions.c
+[14.912s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__functions.c
+[14.913s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__type_support.h
+[14.913s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__functions.c
+[14.913s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.h
+[14.913s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__type_support.h
+[14.913s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__struct.h
+[14.913s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.h
+[14.913s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__functions.h
+[14.913s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_device_info.h
+[14.913s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_int32.h
+[14.914s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_camera_info.h
+[14.914s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_arrays.h
+[14.914s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_user_calib_params.h
+[14.914s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_filter.h
+[14.914s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_bool.h
+[14.914s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_int32.h
+[14.914s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/library_path.sh
+[14.914s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/library_path.dsv
+[14.915s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_c.so
+[14.915s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_c.so" to ""
+[14.915s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs
+[14.915s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg
+[14.915s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail
+[14.915s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[14.915s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[14.915s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_c.h
+[14.916s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[14.916s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__rosidl_typesupport_fastrtps_c.h
+[14.916s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[14.916s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.916s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv
+[14.916s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail
+[14.916s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__rosidl_typesupport_fastrtps_c.h
+[14.916s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h
+[14.916s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h
+[14.916s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__rosidl_typesupport_fastrtps_c.h
+[14.917s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h
+[14.917s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_c.h
+[14.917s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h
+[14.917s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__rosidl_typesupport_fastrtps_c.h
+[14.917s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__rosidl_typesupport_fastrtps_c.h
+[14.917s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h
+[14.917s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h
+[14.917s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[14.918s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.918s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs
+[14.918s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg
+[14.918s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail
+[14.918s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[14.918s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_c.h
+[14.918s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[14.918s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__type_support.c
+[14.918s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__type_support.c
+[14.919s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.c
+[14.919s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h
+[14.919s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.c
+[14.919s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__rosidl_typesupport_introspection_c.h
+[14.919s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[14.919s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__type_support.c
+[14.919s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.c
+[14.919s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.919s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv
+[14.919s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail
+[14.920s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__rosidl_typesupport_introspection_c.h
+[14.920s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.c
+[14.920s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__rosidl_typesupport_introspection_c.h
+[14.920s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h
+[14.920s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h
+[14.920s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h
+[14.920s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__type_support.c
+[14.920s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.c
+[14.920s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__type_support.c
+[14.921s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__type_support.c
+[14.921s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_c.h
+[14.921s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.c
+[14.921s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__type_support.c
+[14.921s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.c
+[14.921s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h
+[14.921s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h
+[14.921s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.c
+[14.922s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.c
+[14.922s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_introspection_c.h
+[14.922s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__rosidl_typesupport_introspection_c.h
+[14.922s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.c
+[14.922s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__rosidl_typesupport_introspection_c.h
+[14.922s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_c.so
+[14.923s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.923s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_c.so
+[14.923s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_c.so" to ""
+[14.923s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs
+[14.923s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg
+[14.923s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail
+[14.923s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__traits.hpp
+[14.923s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__struct.hpp
+[14.924s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__struct.hpp
+[14.924s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__struct.hpp
+[14.924s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__traits.hpp
+[14.924s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.hpp
+[14.924s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__builder.hpp
+[14.924s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__type_support.hpp
+[14.924s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__builder.hpp
+[14.924s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__builder.hpp
+[14.924s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__type_support.hpp
+[14.925s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.hpp
+[14.925s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__type_support.hpp
+[14.925s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__builder.hpp
+[14.925s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.hpp
+[14.925s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__builder.hpp
+[14.925s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__builder.hpp
+[14.925s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__traits.hpp
+[14.925s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__struct.hpp
+[14.925s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__struct.hpp
+[14.926s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__traits.hpp
+[14.926s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__traits.hpp
+[14.926s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__struct.hpp
+[14.926s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__traits.hpp
+[14.926s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/device_status.hpp
+[14.926s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.926s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/metadata.hpp
+[14.926s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/device_info.hpp
+[14.926s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rgbd.hpp
+[14.926s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/imu_info.hpp
+[14.927s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/extrinsics.hpp
+[14.927s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv
+[14.927s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_arrays.hpp
+[14.927s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_int32.hpp
+[14.927s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_string.hpp
+[14.927s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail
+[14.927s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__traits.hpp
+[14.927s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__builder.hpp
+[14.927s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__traits.hpp
+[14.927s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__type_support.hpp
+[14.928s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__struct.hpp
+[14.928s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__builder.hpp
+[14.928s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__builder.hpp
+[14.928s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__struct.hpp
+[14.928s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.hpp
+[14.928s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__builder.hpp
+[14.928s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__builder.hpp
+[14.928s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__builder.hpp
+[14.929s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__struct.hpp
+[14.929s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__builder.hpp
+[14.929s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.hpp
+[14.929s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.hpp
+[14.929s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__struct.hpp
+[14.929s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__type_support.hpp
+[14.929s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__traits.hpp
+[14.929s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__struct.hpp
+[14.929s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.hpp
+[14.930s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__struct.hpp
+[14.930s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__traits.hpp
+[14.930s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__traits.hpp
+[14.930s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__struct.hpp
+[14.930s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.hpp
+[14.930s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__traits.hpp
+[14.930s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__traits.hpp
+[14.930s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__struct.hpp
+[14.930s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.hpp
+[14.931s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__type_support.hpp
+[14.931s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__traits.hpp
+[14.931s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__builder.hpp
+[14.931s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__traits.hpp
+[14.931s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__struct.hpp
+[14.931s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__builder.hpp
+[14.931s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__type_support.hpp
+[14.931s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.hpp
+[14.932s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__builder.hpp
+[14.932s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__struct.hpp
+[14.932s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__builder.hpp
+[14.932s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__traits.hpp
+[14.932s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__traits.hpp
+[14.932s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__struct.hpp
+[14.932s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_device_info.hpp
+[14.932s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_int32.hpp
+[14.932s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_bool.hpp
+[14.932s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_user_calib_params.hpp
+[14.933s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_camera_info.hpp
+[14.933s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_user_calib_params.hpp
+[14.933s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_filter.hpp
+[14.933s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_string.hpp
+[14.933s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs
+[14.933s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg
+[14.933s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail
+[14.933s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[14.933s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[14.933s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[14.933s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/dds_fastrtps
+[14.934s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__rosidl_typesupport_fastrtps_cpp.hpp
+[14.934s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[14.934s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_cpp.hpp
+[14.934s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.934s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv
+[14.934s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail
+[14.934s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp
+[14.934s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__rosidl_typesupport_fastrtps_cpp.hpp
+[14.934s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[14.934s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[14.935s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__rosidl_typesupport_fastrtps_cpp.hpp
+[14.935s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__rosidl_typesupport_fastrtps_cpp.hpp
+[14.935s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/dds_fastrtps
+[14.935s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__rosidl_typesupport_fastrtps_cpp.hpp
+[14.935s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[14.935s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[14.935s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp
+[14.935s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[14.935s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.936s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.936s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs
+[14.936s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg
+[14.936s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail
+[14.936s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.cpp
+[14.936s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[14.936s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__type_support.cpp
+[14.937s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[14.937s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[14.937s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.cpp
+[14.937s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[14.937s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[14.937s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_cpp.hpp
+[14.937s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__type_support.cpp
+[14.937s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__type_support.cpp
+[14.938s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__rosidl_typesupport_introspection_cpp.hpp
+[14.938s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv
+[14.938s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail
+[14.938s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp
+[14.938s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[14.938s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__type_support.cpp
+[14.938s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.cpp
+[14.938s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__type_support.cpp
+[14.938s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.cpp
+[14.938s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__rosidl_typesupport_introspection_cpp.hpp
+[14.939s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp
+[14.939s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp
+[14.939s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__type_support.cpp
+[14.939s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.cpp
+[14.939s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_cpp.hpp
+[14.939s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp
+[14.939s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__type_support.cpp
+[14.939s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.cpp
+[14.939s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp
+[14.940s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__rosidl_typesupport_introspection_cpp.hpp
+[14.940s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.cpp
+[14.940s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.cpp
+[14.940s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.cpp
+[14.940s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__rosidl_typesupport_introspection_cpp.hpp
+[14.940s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__rosidl_typesupport_introspection_cpp.hpp
+[14.941s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[14.941s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.941s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_cpp.so
+[14.942s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_cpp.so" to ""
+[14.942s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/pythonpath.sh
+[14.942s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/pythonpath.dsv
+[14.942s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-2.7.6-py3.10.egg-info
+[14.942s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-2.7.6-py3.10.egg-info/dependency_links.txt
+[14.942s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-2.7.6-py3.10.egg-info/PKG-INFO
+[14.942s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-2.7.6-py3.10.egg-info/SOURCES.txt
+[14.942s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-2.7.6-py3.10.egg-info/top_level.txt
+[14.942s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs
+[14.943s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/liborbbec_camera_msgs__rosidl_generator_py.so
+[14.943s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.943s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_c.c
+[14.943s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg
+[14.943s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_status_s.c
+[14.943s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_status.py
+[14.944s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_info.py
+[14.944s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_imu_info_s.c
+[14.944s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_rgbd_s.c
+[14.944s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_rgbd.py
+[14.944s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_extrinsics_s.c
+[14.944s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_info_s.c
+[14.944s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_extrinsics.py
+[14.944s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/__init__.py
+[14.944s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_metadata_s.c
+[14.945s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_imu_info.py
+[14.945s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_metadata.py
+[14.945s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.945s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv
+[14.945s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_arrays_s.c
+[14.945s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_filter_s.c
+[14.945s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_user_calib_params_s.c
+[14.945s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_user_calib_params.py
+[14.946s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_bool.py
+[14.946s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_string_s.c
+[14.946s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_arrays.py
+[14.946s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_device_info.py
+[14.946s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_user_calib_params_s.c
+[14.946s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_device_info_s.c
+[14.946s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_int32_s.c
+[14.946s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_string.py
+[14.946s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_filter.py
+[14.946s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_int32.py
+[14.947s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_user_calib_params.py
+[14.947s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_int32.py
+[14.947s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/__init__.py
+[14.947s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_camera_info_s.c
+[14.947s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_string.py
+[14.947s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_camera_info.py
+[14.947s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_bool_s.c
+[14.947s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_int32_s.c
+[14.948s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_string_s.c
+[14.948s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/__init__.py
+[14.948s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.948s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.948s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.991s] Listing '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs'...
+[14.991s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/__init__.py'...
+[14.991s] Listing '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg'...
+[14.991s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/__init__.py'...
+[14.991s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_info.py'...
+[14.991s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_status.py'...
+[14.991s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_extrinsics.py'...
+[14.991s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_imu_info.py'...
+[14.991s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_metadata.py'...
+[14.991s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_rgbd.py'...
+[14.991s] Listing '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv'...
+[14.991s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/__init__.py'...
+[14.991s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_bool.py'...
+[14.991s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_camera_info.py'...
+[14.991s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_device_info.py'...
+[14.992s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_int32.py'...
+[14.992s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_string.py'...
+[14.992s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_user_calib_params.py'...
+[14.992s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_arrays.py'...
+[14.992s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_filter.py'...
+[14.992s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_int32.py'...
+[14.992s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_string.py'...
+[14.992s] Compiling '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_user_calib_params.py'...
+[14.995s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.996s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.996s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.996s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.996s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.997s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.997s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_py.so
+[14.997s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_py.so" to ""
+[14.998s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceInfo.idl
+[14.998s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceStatus.idl
+[14.998s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Extrinsics.idl
+[14.998s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Metadata.idl
+[14.998s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/IMUInfo.idl
+[14.998s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/RGBD.idl
+[14.999s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool.idl
+[14.999s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo.idl
+[14.999s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo.idl
+[14.999s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32.idl
+[14.999s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString.idl
+[14.999s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetFilter.idl
+[14.999s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32.idl
+[15.000s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString.idl
+[15.000s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetArrays.idl
+[15.000s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetUserCalibParams.idl
+[15.000s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetUserCalibParams.idl
+[15.000s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceInfo.msg
+[15.000s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceStatus.msg
+[15.000s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Extrinsics.msg
+[15.001s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Metadata.msg
+[15.001s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/IMUInfo.msg
+[15.001s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/RGBD.msg
+[15.001s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool.srv
+[15.001s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool_Request.msg
+[15.001s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool_Response.msg
+[15.001s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo.srv
+[15.002s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo_Request.msg
+[15.002s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo_Response.msg
+[15.002s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo.srv
+[15.002s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo_Request.msg
+[15.002s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo_Response.msg
+[15.002s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32.srv
+[15.002s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32_Request.msg
+[15.003s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32_Response.msg
+[15.003s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString.srv
+[15.003s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString_Request.msg
+[15.003s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString_Response.msg
+[15.003s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetFilter.srv
+[15.003s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetFilter_Request.msg
+[15.004s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetFilter_Response.msg
+[15.004s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32.srv
+[15.004s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32_Request.msg
+[15.004s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32_Response.msg
+[15.004s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString.srv
+[15.004s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString_Request.msg
+[15.004s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString_Response.msg
+[15.005s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetArrays.srv
+[15.005s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetArrays_Request.msg
+[15.005s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetArrays_Response.msg
+[15.005s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetUserCalibParams.srv
+[15.005s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetUserCalibParams_Request.msg
+[15.005s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetUserCalibParams_Response.msg
+[15.006s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetUserCalibParams.srv
+[15.006s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetUserCalibParams_Request.msg
+[15.006s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetUserCalibParams_Response.msg
+[15.006s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/package_run_dependencies/orbbec_camera_msgs
+[15.006s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/parent_prefix_path/orbbec_camera_msgs
+[15.006s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/ament_prefix_path.sh
+[15.007s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/ament_prefix_path.dsv
+[15.007s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/path.sh
+[15.007s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/path.dsv
+[15.007s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.bash
+[15.007s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.sh
+[15.007s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.zsh
+[15.008s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.dsv
+[15.008s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv
+[15.008s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/packages/orbbec_camera_msgs
+[15.008s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cExport.cmake
+[15.008s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[15.008s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[15.009s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.009s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[15.009s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.009s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cExport.cmake
+[15.009s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[15.009s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cppExport.cmake
+[15.010s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.010s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.010s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[15.010s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.010s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cppExport.cmake
+[15.010s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[15.011s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_pyExport.cmake
+[15.011s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[15.011s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[15.011s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.011s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.011s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[15.012s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[15.012s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.012s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.012s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgsConfig.cmake
+[15.012s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgsConfig-version.cmake
+[15.012s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.xml
+[15.016s] Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meteor/ROS2/MickRobot/mick_robot_ws/install/path_tracking:/home/meteor/ROS2/MickRobot/mick_robot_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera_msgs

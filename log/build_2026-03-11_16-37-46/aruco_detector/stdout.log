@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/aruco_detector/aruco_detector.egg-info/PKG-INFO
+writing dependency_links to ../../build/aruco_detector/aruco_detector.egg-info/dependency_links.txt
+writing entry points to ../../build/aruco_detector/aruco_detector.egg-info/entry_points.txt
+writing requirements to ../../build/aruco_detector/aruco_detector.egg-info/requires.txt
+writing top-level names to ../../build/aruco_detector/aruco_detector.egg-info/top_level.txt
+reading manifest file '../../build/aruco_detector/aruco_detector.egg-info/SOURCES.txt'
+writing manifest file '../../build/aruco_detector/aruco_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/full_system.launch.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/launch
+running install_egg_info
+removing '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/aruco_detector/aruco_detector.egg-info to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector-0.0.0-py3.10.egg-info
+running install_scripts
+Installing aruco_detector_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/aruco_detector
+Installing generate_aruco_markers script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/aruco_detector
+Installing multi_modal_guidance_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/aruco_detector
+Installing system_monitor_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/aruco_detector
+writing list of installed files to '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/install.log'

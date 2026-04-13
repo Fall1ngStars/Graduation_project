@@ -1,0 +1,27 @@
+[  6%] [32mBuilding CXX object CMakeFiles/frame_latency_node.dir/rclcpp_components/node_main_frame_latency_node.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/start_benchmark_node.dir/rclcpp_components/node_main_start_benchmark_node.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/multi_save_rgbir_node.dir/rclcpp_components/node_main_multi_save_rgbir_node.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/orbbec_camera_node.dir/rclcpp_components/node_main_orbbec_camera_node.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/frame_latency.dir/tools/frame_latency.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/dynamic_params.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/d2c_viewer.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/image_publisher.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/multi_save_rgbir.dir/src/utils.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/start_benchmark.dir/tools/start_benchmark.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/multi_save_rgbir.dir/tools/multi_save_rgbir.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node_driver.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_param_backend.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_lidar_node.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_service.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/synced_imu_publisher.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable multi_save_rgbir_node[0m
+[ 42%] [32m[1mLinking CXX executable start_benchmark_node[0m
+[ 44%] [32m[1mLinking CXX executable frame_latency_node[0m
+[ 46%] [32m[1mLinking CXX executable orbbec_camera_node[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/utils.cpp.o[0m
+[ 48%] Built target orbbec_camera_node
+[ 51%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/jpeg_decoder.cpp.o[0m
+[ 51%] Built target multi_save_rgbir_node
+[ 51%] Built target frame_latency_node
+[ 51%] Built target start_benchmark_node

@@ -1,0 +1,59 @@
+[1.032s] Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/aruco_detector': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/install.log --single-version-externally-managed install_data
+[1.210s] running egg_info
+[1.210s] creating ../../build/aruco_detector/aruco_detector.egg-info
+[1.211s] writing ../../build/aruco_detector/aruco_detector.egg-info/PKG-INFO
+[1.211s] writing dependency_links to ../../build/aruco_detector/aruco_detector.egg-info/dependency_links.txt
+[1.211s] writing entry points to ../../build/aruco_detector/aruco_detector.egg-info/entry_points.txt
+[1.211s] writing requirements to ../../build/aruco_detector/aruco_detector.egg-info/requires.txt
+[1.211s] writing top-level names to ../../build/aruco_detector/aruco_detector.egg-info/top_level.txt
+[1.211s] writing manifest file '../../build/aruco_detector/aruco_detector.egg-info/SOURCES.txt'
+[1.212s] reading manifest file '../../build/aruco_detector/aruco_detector.egg-info/SOURCES.txt'
+[1.213s] writing manifest file '../../build/aruco_detector/aruco_detector.egg-info/SOURCES.txt'
+[1.213s] running build
+[1.213s] running build_py
+[1.213s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build
+[1.213s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib
+[1.213s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector
+[1.214s] copying aruco_detector/aruco_detector_node.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector
+[1.214s] copying aruco_detector/aruco_detector_node_final.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector
+[1.214s] copying aruco_detector/multi_modal_guidance_node.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector
+[1.214s] copying aruco_detector/__init__.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector
+[1.214s] copying aruco_detector/aruco_detector_node_fixed.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector
+[1.214s] copying aruco_detector/generate_aruco_markers.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector
+[1.214s] copying aruco_detector/system_monitor_node.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector
+[1.214s] running install
+[1.215s] running install_lib
+[1.215s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector
+[1.215s] copying /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector/aruco_detector_node.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector
+[1.215s] copying /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector/aruco_detector_node_final.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector
+[1.215s] copying /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector/multi_modal_guidance_node.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector
+[1.215s] copying /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector/__init__.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector
+[1.216s] copying /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector/aruco_detector_node_fixed.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector
+[1.216s] copying /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector/generate_aruco_markers.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector
+[1.216s] copying /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build/lib/aruco_detector/system_monitor_node.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector
+[1.216s] byte-compiling /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector/aruco_detector_node.py to aruco_detector_node.cpython-310.pyc
+[1.217s] byte-compiling /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector/aruco_detector_node_final.py to aruco_detector_node_final.cpython-310.pyc
+[1.219s] byte-compiling /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector/multi_modal_guidance_node.py to multi_modal_guidance_node.cpython-310.pyc
+[1.220s] byte-compiling /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector/__init__.py to __init__.cpython-310.pyc
+[1.220s] byte-compiling /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector/aruco_detector_node_fixed.py to aruco_detector_node_fixed.cpython-310.pyc
+[1.221s] byte-compiling /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector/generate_aruco_markers.py to generate_aruco_markers.cpython-310.pyc
+[1.221s] byte-compiling /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector/system_monitor_node.py to system_monitor_node.cpython-310.pyc
+[1.222s] running install_data
+[1.222s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/ament_index
+[1.222s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/ament_index/resource_index
+[1.222s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/ament_index/resource_index/packages
+[1.222s] copying resource/aruco_detector -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/ament_index/resource_index/packages
+[1.222s] copying package.xml -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector
+[1.222s] creating /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/launch
+[1.223s] copying launch/controller.launch.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/launch
+[1.223s] copying launch/aruco_detection.launch.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/launch
+[1.223s] copying launch/full_system.launch.py -> /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/share/aruco_detector/launch
+[1.223s] running install_egg_info
+[1.224s] Copying ../../build/aruco_detector/aruco_detector.egg-info to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector-0.0.0-py3.10.egg-info
+[1.225s] running install_scripts
+[1.241s] Installing aruco_detector_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/aruco_detector
+[1.241s] Installing generate_aruco_markers script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/aruco_detector
+[1.241s] Installing multi_modal_guidance_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/aruco_detector
+[1.241s] Installing system_monitor_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/aruco_detector
+[1.241s] writing list of installed files to '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/install.log'
+[1.273s] Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/aruco_detector' returned '0': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/install.log --single-version-externally-managed install_data

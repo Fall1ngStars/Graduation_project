@@ -1,0 +1,21 @@
+[5.888s] Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_controller': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ranger_controller build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/install.log --single-version-externally-managed install_data
+[6.138s] running egg_info
+[6.139s] writing ../../build/ranger_controller/ranger_controller.egg-info/PKG-INFO
+[6.139s] writing dependency_links to ../../build/ranger_controller/ranger_controller.egg-info/dependency_links.txt
+[6.139s] writing entry points to ../../build/ranger_controller/ranger_controller.egg-info/entry_points.txt
+[6.139s] writing requirements to ../../build/ranger_controller/ranger_controller.egg-info/requires.txt
+[6.139s] writing top-level names to ../../build/ranger_controller/ranger_controller.egg-info/top_level.txt
+[6.156s] reading manifest file '../../build/ranger_controller/ranger_controller.egg-info/SOURCES.txt'
+[6.157s] writing manifest file '../../build/ranger_controller/ranger_controller.egg-info/SOURCES.txt'
+[6.157s] running build
+[6.157s] running build_py
+[6.157s] running install
+[6.158s] running install_lib
+[6.159s] running install_data
+[6.159s] running install_egg_info
+[6.160s] removing '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/python3.10/site-packages/ranger_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[6.161s] Copying ../../build/ranger_controller/ranger_controller.egg-info to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/python3.10/site-packages/ranger_controller-0.0.0-py3.10.egg-info
+[6.162s] running install_scripts
+[6.181s] Installing aruco_follower_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/ranger_controller
+[6.182s] writing list of installed files to '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/install.log'
+[6.213s] Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ranger_controller' returned '0': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ranger_controller build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ranger_controller/install.log --single-version-externally-managed install_data

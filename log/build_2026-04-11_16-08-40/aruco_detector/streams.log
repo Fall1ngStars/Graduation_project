@@ -1,0 +1,24 @@
+[3.090s] Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/aruco_detector': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/install.log --single-version-externally-managed install_data
+[3.709s] running egg_info
+[3.710s] writing ../../build/aruco_detector/aruco_detector.egg-info/PKG-INFO
+[3.711s] writing dependency_links to ../../build/aruco_detector/aruco_detector.egg-info/dependency_links.txt
+[3.711s] writing entry points to ../../build/aruco_detector/aruco_detector.egg-info/entry_points.txt
+[3.712s] writing requirements to ../../build/aruco_detector/aruco_detector.egg-info/requires.txt
+[3.712s] writing top-level names to ../../build/aruco_detector/aruco_detector.egg-info/top_level.txt
+[3.717s] reading manifest file '../../build/aruco_detector/aruco_detector.egg-info/SOURCES.txt'
+[3.719s] writing manifest file '../../build/aruco_detector/aruco_detector.egg-info/SOURCES.txt'
+[3.720s] running build
+[3.720s] running build_py
+[3.721s] running install
+[3.722s] running install_lib
+[3.725s] running install_data
+[3.726s] running install_egg_info
+[3.730s] removing '/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector-0.0.0-py3.10.egg-info' (and everything under it)
+[3.731s] Copying ../../build/aruco_detector/aruco_detector.egg-info to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages/aruco_detector-0.0.0-py3.10.egg-info
+[3.733s] running install_scripts
+[3.781s] Installing aruco_detector_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/aruco_detector
+[3.781s] Installing generate_aruco_markers script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/aruco_detector
+[3.781s] Installing multi_modal_guidance_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/aruco_detector
+[3.782s] Installing system_monitor_node script to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/aruco_detector
+[3.783s] writing list of installed files to '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/install.log'
+[3.836s] Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/aruco_detector' returned '0': PYTHONPATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector build --build-base /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/build install --record /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/aruco_detector/install.log --single-version-externally-managed install_data

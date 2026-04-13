@@ -1,0 +1,373 @@
+[0.226s] Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera LD_LIBRARY_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera -- -j16 -l16
+[0.643s] [  2%] [32mBuilding CXX object CMakeFiles/frame_latency.dir/tools/frame_latency.cpp.o[0m
+[0.673s] [35m[1mConsolidate compiler generated dependencies of target multi_save_rgbir_node[0m
+[0.697s] [  6%] Built target multi_save_rgbir_node
+[0.748s] [  8%] [32mBuilding CXX object CMakeFiles/start_benchmark.dir/tools/start_benchmark.cpp.o[0m
+[0.756s] [35m[1mConsolidate compiler generated dependencies of target frame_latency_node[0m
+[0.762s] [35m[1mConsolidate compiler generated dependencies of target start_benchmark_node[0m
+[0.782s] [ 13%] Built target frame_latency_node
+[0.786s] [ 17%] Built target start_benchmark_node
+[1.004s] [35m[1mConsolidate compiler generated dependencies of target orbbec_camera[0m
+[1.030s] [35m[1mConsolidate compiler generated dependencies of target orbbec_camera_node[0m
+[1.050s] [ 22%] Built target orbbec_camera_node
+[1.060s] [ 24%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o[0m
+[1.160s] [35m[1mConsolidate compiler generated dependencies of target multi_save_rgbir[0m
+[1.189s] [ 26%] [32mBuilding CXX object CMakeFiles/multi_save_rgbir.dir/tools/multi_save_rgbir.cpp.o[0m
+[27.816s] [ 28%] [32m[1mLinking CXX shared library libstart_benchmark.so[0m
+[29.812s] [ 31%] [32m[1mLinking CXX shared library libmulti_save_rgbir.so[0m
+[30.722s] [ 31%] Built target start_benchmark
+[30.745s] [ 33%] Built target multi_save_rgbir
+[33.024s] [ 35%] [32m[1mLinking CXX shared library libframe_latency.so[0m
+[33.372s] [ 35%] Built target frame_latency
+[41.292s] [ 37%] [32m[1mLinking CXX shared library liborbbec_camera.so[0m
+[41.658s] [ 60%] Built target orbbec_camera
+[41.836s] [ 64%] [32mBuilding CXX object CMakeFiles/list_devices_node.dir/tools/list_devices_node.cpp.o[0m
+[41.836s] [ 64%] [32mBuilding CXX object CMakeFiles/list_depth_work_mode_node.dir/tools/list_depth_work_mode.cpp.o[0m
+[41.846s] [ 66%] [32mBuilding CXX object CMakeFiles/ob_benchmark_node.dir/tools/ob_benchmark.cpp.o[0m
+[41.846s] [ 68%] [32mBuilding CXX object CMakeFiles/list_camera_profile_mode_node.dir/tools/list_camera_profile.cpp.o[0m
+[41.863s] [ 71%] [32mBuilding CXX object CMakeFiles/435le_example_node.dir/examples/435le_new_interface/camera_example_node.cpp.o[0m
+[41.875s] [ 73%] [32mBuilding CXX object CMakeFiles/set_device_ip.dir/tools/set_device_ip.cpp.o[0m
+[41.924s] [ 75%] [32mBuilding CXX object CMakeFiles/topic_statistics_node.dir/tools/topic_statistics.cpp.o[0m
+[41.946s] [ 77%] [32mBuilding CXX object CMakeFiles/service_benchmark_node.dir/scripts/service_benchmark_node.cpp.o[0m
+[41.978s] [ 80%] [32mBuilding CXX object CMakeFiles/image_sync_example_node.dir/examples/multi_camera_time_sync/image_sync_example_node.cpp.o[0m
+[50.432s] [ 82%] [32m[1mLinking CXX executable list_depth_work_mode_node[0m
+[50.614s] [ 82%] Built target list_depth_work_mode_node
+[51.095s] [ 84%] [32m[1mLinking CXX executable list_camera_profile_mode_node[0m
+[51.096s] [ 86%] [32m[1mLinking CXX executable list_devices_node[0m
+[52.985s] [ 88%] [32m[1mLinking CXX executable set_device_ip[0m
+[53.071s] [ 91%] [32m[1mLinking CXX executable ob_benchmark_node[0m
+[53.214s] [ 91%] Built target set_device_ip
+[53.270s] [ 91%] Built target ob_benchmark_node
+[54.072s] [ 93%] [32m[1mLinking CXX executable topic_statistics_node[0m
+[54.267s] [ 93%] Built target list_devices_node
+[54.271s] [ 93%] Built target list_camera_profile_mode_node
+[54.330s] [ 93%] Built target topic_statistics_node
+[54.649s] [ 95%] [32m[1mLinking CXX executable 435le_example_node[0m
+[54.856s] [ 95%] Built target 435le_example_node
+[56.178s] [ 97%] [32m[1mLinking CXX executable image_sync_example_node[0m
+[56.757s] [ 97%] Built target image_sync_example_node
+[61.255s] [100%] [32m[1mLinking CXX executable service_benchmark_node[0m
+[61.431s] [100%] Built target service_benchmark_node
+[61.442s] Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera LD_LIBRARY_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera -- -j16 -l16
+[61.479s] Invoking command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera LD_LIBRARY_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera
+[61.491s] -- Install configuration: ""
+[61.504s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node
+[61.505s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.505s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/common_benchmark_node.py
+[61.505s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/service_benchmark_node.py
+[61.506s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/frame_latency_node
+[61.506s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/frame_latency_node" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.507s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/start_benchmark_node
+[61.507s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/start_benchmark_node" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.508s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/multi_save_rgbir_node
+[61.509s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/multi_save_rgbir_node" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.559s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/liborbbec_camera.so
+[61.583s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/liborbbec_camera.so" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.606s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/libframe_latency.so
+[61.613s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/libframe_latency.so" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.649s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/libstart_benchmark.so
+[61.652s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/libstart_benchmark.so" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.697s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/libmulti_save_rgbir.so
+[61.701s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/libmulti_save_rgbir.so" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.701s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include
+[61.701s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/magic_enum
+[61.701s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/magic_enum/magic_enum.hpp
+[61.702s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera
+[61.702s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node.h
+[61.702s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/d2c_viewer.h
+[61.702s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/jetson_nv_decoder.h
+[61.702s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/image_publisher.h
+[61.702s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/ros_param_backend.h
+[61.702s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/fps_counter.hpp
+[61.702s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/synced_imu_publisher.h
+[61.702s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node_driver.h
+[61.702s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/dynamic_params.h
+[61.702s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/fps_delay_status.hpp
+[61.702s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/constants.h
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/utils.h
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/jpeg_decoder.h
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/rk_mpp_decoder.h
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/orbbec_camera/ob_lidar_node.h
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_a.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera_synced.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_330_series.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw2.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini345.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini435_le.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/orbbec_camera.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_max_pro.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_mega.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_intra_process_demo_launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2L.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_lidar.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/astra.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini210.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/utils_yaml.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/lidar.launch.py
+[61.703s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_al.launch.py
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_330_series_low_cpu.launch.py
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/__pycache__
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/__pycache__/gemini_330_series.launch.cpython-310.pyc
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/astra2.launch.py
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini305.launch.py
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini345_lg.launch.py
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/orbbec_multicamera.launch.py
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/femto.launch.py
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_bolt.launch.py
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/gemini305_dual_color.yaml
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Gemini2_v1.7.json
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Openni_device.json
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/.gitkeep
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/tools
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/tools/startbenchmark
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/tools/startbenchmark/start_benchmark_params.json
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/tools/multisavergbir
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/tools/multisavergbir/multi_save_rgbir_params.json
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/common.yaml
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/camera_secondary_params.yaml
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/astra2.yaml
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/gemini2L.yaml
+[61.704s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/gemini2.yaml
+[61.705s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/OrbbecSDKConfig_v2.0.xml
+[61.705s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/femto.yaml
+[61.705s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/femto_bolt.yaml
+[61.705s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/gemini330Lg_series.yaml
+[61.705s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/camera_params.yaml
+[61.705s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/gemini330_series.yaml
+[61.705s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//config/femto_mega.yaml
+[61.705s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples
+[61.705s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/README.MD
+[61.705s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/benchmark
+[61.705s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/benchmark/ob_benchmark_1.launch.py
+[61.705s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/benchmark/gemini_330_series_benchmark.launch.py
+[61.705s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/benchmark/ob_benchmark_0.launch.py
+[61.705s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool
+[61.706s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multi_camera_synced_verify.launch.py
+[61.706s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/gemini_synced_verify.launch.py
+[61.706s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync
+[61.706s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output
+[61.706s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900
+[61.706s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames
+[61.706s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543527_f9_s1739874543616_e50_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543427_f6_s1739874543684_e5000_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543427_f6_s1739874543485_e50_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543494_f8_s1739874543687_e5000_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543393_f5_s1739874543470_e50_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543494_f8_s1739874543540_e50_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543227_f0_s1739874543250_e5000_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543394_f5_s1739874543661_e5000_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543327_f3_s1739874543460_e5000_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543560_f10_s1739874543618_e50_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543294_f2_s1739874543319_e5000_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543360_f4_s1739874543460_e5000_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543293_f2_s1739874543446_e50_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543460_f7_s1739874543685_e5000_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543260_f1_s1739874543294_e5000_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543460_f7_s1739874543505_e50_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543527_f10_s1739874543687_e5000_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543327_f3_s1739874543458_e50_d16_.jpg
+[61.707s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543260_f1_s1739874543345_e50_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543360_f4_s1739874543468_e50_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543560_f11_s1739874543687_e5000_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543227_f0_s1739874543304_e50_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543427_f6_s1739874543474_e5000_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543361_f4_s1739874543405_e5000_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543260_f1_s1739874543310_e5000_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543327_f3_s1739874543441_e50_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543294_f2_s1739874543359_e50_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543494_f8_s1739874543528_e5000_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543461_f7_s1739874543520_e50_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543294_f2_s1739874543329_e5000_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543394_f5_s1739874543506_e50_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543494_f8_s1739874543548_e50_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543327_f3_s1739874543393_e5000_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543427_f6_s1739874543518_e50_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543527_f9_s1739874543603_e50_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543561_f10_s1739874543628_e5000_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543227_f0_s1739874543327_e50_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543461_f7_s1739874543493_e5000_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543394_f5_s1739874543473_e5000_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543227_f0_s1739874543250_e5000_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543561_f10_s1739874543648_e50_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543360_f4_s1739874543442_e50_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543260_f1_s1739874543351_e50_d16_.jpg
+[61.708s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543527_f9_s1739874543627_e5000_d16_.jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/StreamProfileInfo.txt
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/5_ir_left_SNCP1E5420006D_Index0_1739874543327_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/4_ir_left_SNCP1E5420006D_Index0_1739874543361_[1].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/9_color_SNCP1L44P00051_Index1_1739874543393_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/2_color_SNCP1E5420006D_Index0_1739874543461_[1].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/9_ir_left_SNCP1L44P00051_Index1_1739874543394_[1].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/3_color_SNCP1E5420006D_Index0_1739874543260_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/3_color_SNCP1L44P00051_Index1_1739874543260_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/10_ir_left_SNCP1L44P00051_Index1_1739874543227_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/1_ir_left_SNCP1L44P00051_Index1_1739874543494_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/7_color_SNCP1L44P00051_Index1_1739874543427_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/7_ir_left_SNCP1L44P00051_Index1_1739874543427_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/8_color_SNCP1L44P00051_Index1_1739874543293_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/1_color_SNCP1E5420006D_Index0_1739874543494_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/7_color_SNCP1E5420006D_Index0_1739874543427_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/8_color_SNCP1E5420006D_Index0_1739874543294_[1].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/6_ir_left_SNCP1E5420006D_Index0_1739874543561_[1].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/2_ir_left_SNCP1E5420006D_Index0_1739874543461_[1].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/1_color_SNCP1L44P00051_Index1_1739874543494_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/0_color_SNCP1L44P00051_Index1_1739874543527_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/4_ir_left_SNCP1L44P00051_Index1_1739874543360_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/8_ir_left_SNCP1L44P00051_Index1_1739874543294_[1].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/0_ir_left_SNCP1L44P00051_Index1_1739874543527_[0].jpg
+[61.709s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/6_ir_left_SNCP1L44P00051_Index1_1739874543560_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/5_color_SNCP1E5420006D_Index0_1739874543327_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/5_color_SNCP1L44P00051_Index1_1739874543327_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/0_ir_left_SNCP1E5420006D_Index0_1739874543527_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/6_color_SNCP1E5420006D_Index0_1739874543561_[1].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/10_color_SNCP1L44P00051_Index1_1739874543227_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/9_color_SNCP1E5420006D_Index0_1739874543394_[1].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/3_ir_left_SNCP1E5420006D_Index0_1739874543260_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/2_color_SNCP1L44P00051_Index1_1739874543460_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/7_ir_left_SNCP1E5420006D_Index0_1739874543427_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/1_ir_left_SNCP1E5420006D_Index0_1739874543494_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/4_color_SNCP1E5420006D_Index0_1739874543360_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/5_ir_left_SNCP1L44P00051_Index1_1739874543327_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/0_color_SNCP1E5420006D_Index0_1739874543527_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/10_ir_left_SNCP1E5420006D_Index0_1739874543227_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/4_color_SNCP1L44P00051_Index1_1739874543360_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/2_ir_left_SNCP1L44P00051_Index1_1739874543460_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/10_color_SNCP1E5420006D_Index0_1739874543227_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/9_ir_left_SNCP1E5420006D_Index0_1739874543394_[1].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/8_ir_left_SNCP1E5420006D_Index0_1739874543294_[1].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/3_ir_left_SNCP1L44P00051_Index1_1739874543260_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/6_color_SNCP1L44P00051_Index1_1739874543560_[0].jpg
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/frameMatchLog.txt
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/DevicesInfo.txt
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python
+[61.710s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/Config.ini
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/README.md
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/script
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/script/config_frameMatch-systemTimestamp.py
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/script/config_frameMatch.py
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/script/config_frameMatch_Gemini2VL.py
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/script/config_frameMatch-Astra2_new.py
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/script/config_frameMatch_g330.py
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/SyncFramesMain.py
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/gemini_330_series_synced_verify.launch.py
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/net_camera
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/net_camera/multi_net_camera.launch.py
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/435le_new_interface
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/435le_new_interface/README.MD
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/435le_new_interface/camera_example_node.cpp
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_time_sync
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_time_sync/image_sync_example_node.cpp
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/lower_cpu_usage
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/lower_cpu_usage/gemini_330_series_lower_cpu_usage.launch.py
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/lower_cpu_usage/multi_camera_lower_cpu_usage.launch.py
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/gmsl_camera
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/gmsl_camera/gemini_330_gmsl.launch.py
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/gmsl_camera/multi_gmsl_camera_synced.launch.py
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera//examples/gmsl_camera/multi_gmsl_camera.launch.py
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/hpp
+[61.711s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/hpp/TypeHelper.hpp
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/hpp/Device.hpp
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/hpp/Error.hpp
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/hpp/RecordPlayback.hpp
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/hpp/Frame.hpp
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/hpp/Pipeline.hpp
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/hpp/Context.hpp
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/hpp/Types.hpp
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/hpp/StreamProfile.hpp
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/hpp/Filter.hpp
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/hpp/Sensor.hpp
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/hpp/Version.hpp
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/hpp/Utils.hpp
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/Frame.h
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/MultipleDevices.h
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/Device.h
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/Pipeline.h
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/Property.h
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/Version.h
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/StreamProfile.h
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/RecordPlayback.h
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/Sensor.h
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/Error.h
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/Export.h
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/Utils.h
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/TypeHelper.h
+[61.712s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/ObTypes.h
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/Filter.h
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/Advanced.h
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/h/Context.h
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/ObSensor.h
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/include/libobsensor/ObSensor.hpp
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib//extensions
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib//extensions/filters
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib//extensions/filters/libFilterProcessor.so
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib//extensions/filters/libob_priv_filter.so
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib//extensions/frameprocessor
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib//extensions/frameprocessor/libob_frame_processor.so
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib//extensions/depthengine
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib//extensions/depthengine/libdepthengine.so
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib//extensions/depthengine/libdepthengine.so.2.0
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib//extensions/firmwareupdater
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib//extensions/firmwareupdater/libfirmwareupdater.so
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib//libOrbbecSDK.so.2.7.6
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib//libOrbbecSDK.so
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib//libOrbbecSDK.so.2
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/extensions/libdepthengine.so
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/extensions/libdepthengine.so.2.0
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/extensions/libFilterProcessor.so
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/extensions/libob_priv_filter.so
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/extensions/libfirmwareupdater.so
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/extensions/libob_frame_processor.so
+[61.713s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/udev/99-obsensor-libusb.rules
+[61.741s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/list_devices_node
+[61.742s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/list_devices_node" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.743s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node
+[61.743s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.751s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node
+[61.752s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.762s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/topic_statistics_node
+[61.763s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/topic_statistics_node" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.769s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/service_benchmark_node
+[61.771s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/service_benchmark_node" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.772s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/ob_benchmark_node
+[61.773s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/ob_benchmark_node" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.778s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/435le_example_node
+[61.781s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/435le_example_node" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.781s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/set_device_ip
+[61.782s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/set_device_ip" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.790s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/image_sync_example_node
+[61.792s] -- Set runtime path of "/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib/orbbec_camera/image_sync_example_node" to ":/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[61.792s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.sh
+[61.793s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.dsv
+[61.793s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/ament_index/resource_index/package_run_dependencies/orbbec_camera
+[61.793s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/ament_index/resource_index/parent_prefix_path/orbbec_camera
+[61.793s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.sh
+[61.793s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.dsv
+[61.793s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/environment/path.sh
+[61.793s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/environment/path.dsv
+[61.793s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/local_setup.bash
+[61.793s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/local_setup.sh
+[61.793s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/local_setup.zsh
+[61.793s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/local_setup.dsv
+[61.793s] -- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/package.dsv
+[61.797s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/ament_index/resource_index/packages/orbbec_camera
+[61.797s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/ament_index/resource_index/rclcpp_components/orbbec_camera
+[61.798s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[61.798s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[61.798s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[61.798s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig.cmake
+[61.798s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig-version.cmake
+[61.798s] -- Up-to-date: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/share/orbbec_camera/package.xml
+[61.800s] Invoked command in '/home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_base:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_controller:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/pointcloud_refinement:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/aruco_detector:/opt/ros/humble:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_bringup:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_description:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera LD_LIBRARY_PATH=/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ranger_msgs/lib:/home/meteor/ROS2/MickRobot/Graduation_project_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/orbbec_camera

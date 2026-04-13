@@ -1,0 +1,175 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Build package with cmake
+-- Setting build type to 'Release' as none was specified.
+-- Tests will not be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Project will be installed to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk with 'make install'
+--  - To install LIB components to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/lib
+--  - To install BIN components to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/bin
+--  - To install INCLUDE components to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include
+--  - To install CMAKE components to /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/share/cmake/ugv_sdk
+-- Configuring done
+-- Generating done
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+-- Build files have been written to: /home/meteor/ROS2/MickRobot/Graduation_project_ws/build/ugv_sdk
+[ 13%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v2/agilex_msg_parser_v2.c.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/protocol_v2/protocol_v2_parser.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/tracer_robot.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v1/agilex_msg_parser_v1.c.o[0m
+In file included from [01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/src/mobile_robot/bunker_robot.cpp:11[m[K:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:[m[K In member function ‘[01m[Kwestonrobot::BunkerActuatorState westonrobot::BunkerBase<ParserType>::GetActuatorState() [with ParserType = westonrobot::ProtocolV2Parser][m[K’:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:59:7:[m[K [01;35m[Kwarning: [m[Kiteration 2 invokes undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggressive-loop-optimizations-Waggressive-loop-optimizations]8;;[m[K]
+   59 |       [01;35m[Kbunker_actuator[m[K.actuator_state[i] = actuator.actuator_state[i];
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:56:23:[m[K [01;36m[Knote: [m[Kwithin this loop
+   56 |     for (int i = 0; [01;36m[Ki < 3[m[K; ++i) {
+      |                     [01;36m[K~~^~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:[m[K In member function ‘[01m[Kwestonrobot::BunkerActuatorState westonrobot::BunkerBase<ParserType>::GetActuatorState() [with ParserType = westonrobot::ProtocolV1Parser<westonrobot::BunkerLimits>][m[K’:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:59:7:[m[K [01;35m[Kwarning: [m[Kiteration 2 invokes undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggressive-loop-optimizations-Waggressive-loop-optimizations]8;;[m[K]
+   59 |       [01;35m[Kbunker_actuator[m[K.actuator_state[i] = actuator.actuator_state[i];
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:56:23:[m[K [01;36m[Knote: [m[Kwithin this loop
+   56 |     for (int i = 0; [01;36m[Ki < 3[m[K; ++i) {
+      |                     [01;36m[K~~^~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:[m[K In member function ‘[01m[Kwestonrobot::BunkerActuatorState westonrobot::BunkerBase<ParserType>::GetActuatorState() [with ParserType = westonrobot::ProtocolV2Parser][m[K’:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:59:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* __builtin_memcpy(void*, const void*, long unsigned int)[m[K’ writing 60 bytes into a region of size 40 overflows the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+   59 |       [01;35m[Kbunker_actuator[m[K.actuator_state[i] = actuator.actuator_state[i];
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:51:23:[m[K [01;36m[Knote: [m[Kat offset 104 into destination object ‘[01m[K‘result_decl’ not supported by dump_expr<expression error>[m[K’ of size 144
+   51 |   BunkerActuatorState [01;36m[KGetActuatorState[m[K() override {
+      |                       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:[m[K In member function ‘[01m[Kwestonrobot::BunkerActuatorState westonrobot::BunkerBase<ParserType>::GetActuatorState() [with ParserType = westonrobot::ProtocolV1Parser<westonrobot::BunkerLimits>][m[K’:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:59:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* __builtin_memcpy(void*, const void*, long unsigned int)[m[K’ writing 60 bytes into a region of size 40 overflows the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+   59 |       [01;35m[Kbunker_actuator[m[K.actuator_state[i] = actuator.actuator_state[i];
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:51:23:[m[K [01;36m[Knote: [m[Kat offset 104 into destination object ‘[01m[K‘result_decl’ not supported by dump_expr<expression error>[m[K’ of size 144
+   51 |   BunkerActuatorState [01;36m[KGetActuatorState[m[K() override {
+      |                       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[ 44%] [32m[1mLinking CXX static library lib/libugv_sdk.a[0m
+[ 44%] Built target ugv_sdk
+[ 72%] [32mBuilding CXX object sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o[0m
+[ 72%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o[0m
+[ 72%] [32mBuilding CXX object sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o[0m
+[ 72%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o[0m
+[ 72%] [32mBuilding CXX object sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o[0m
+[ 72%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o[0m
+[ 72%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o[0m
+[ 72%] [32mBuilding CXX object sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o[0m
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:37:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   37 |   [01;35m[Ktracer->Connect(device_name)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:38:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   38 |   [01;35m[Ktracer->EnableCommandedMode()[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:42:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   42 |   [01;35m[Ktracer->SetLightCommand(CONST_OFF, 0)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:45:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   45 |   [01;35m[Ktracer->SetLightCommand(CONST_ON, 0)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:48:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   48 |   [01;35m[Ktracer->SetLightCommand(BREATH, 0)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:51:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   51 |   [01;35m[Ktracer->SetLightCommand(CUSTOM, 30)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:55:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   55 |   [01;35m[Ktracer->SetLightCommand(CONST_OFF, 0)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:61:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   61 |     [01;35m[Ktracer->SetMotionCommand(1.0, 0.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:64:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   64 |     auto state = [01;35m[Ktracer->GetRobotState()[m[K;
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[ 75%] [32m[1mLinking CXX executable ../../bin/demo_tracer_robot[0m
+[ 79%] [32m[1mLinking CXX executable ../../bin/demo_bunker_robot[0m
+[ 79%] Built target demo_tracer_robot
+[ 79%] Built target demo_bunker_robot
+[ 82%] [32m[1mLinking CXX executable ../../bin/demo_protocol_detector[0m
+[ 86%] [32m[1mLinking CXX executable ../../bin/demo_robot_version[0m
+[ 89%] [32m[1mLinking CXX executable ../../bin/demo_scout_robot[0m
+[ 93%] [32m[1mLinking CXX executable ../../bin/demo_ranger_robot[0m
+[ 93%] Built target demo_protocol_detector
+[ 96%] [32m[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot[0m
+[ 96%] Built target demo_robot_version
+[100%] [32m[1mLinking CXX executable ../../bin/demo_hunter_robot[0m
+[100%] Built target demo_ranger_robot
+[100%] Built target demo_scout_robot
+[100%] Built target demo_scout_mini_omni_robot
+[100%] Built target demo_hunter_robot
+-- Install configuration: "Release"
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/lib/libugv_sdk.a
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/utilities
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/async_port
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake
+-- Installing: /home/meteor/ROS2/MickRobot/Graduation_project_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake

@@ -1,0 +1,6 @@
+[console_scripts]
+aruco_detector_node = aruco_detector.aruco_detector_node_final:main
+generate_aruco_markers = aruco_detector.generate_aruco_markers:main
+multi_modal_guidance_node = aruco_detector.multi_modal_guidance_node:main
+system_monitor_node = aruco_detector.system_monitor_node:main
+
