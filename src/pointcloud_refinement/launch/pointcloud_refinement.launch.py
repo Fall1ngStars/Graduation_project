@@ -12,14 +12,10 @@ def generate_launch_description():
         output='screen',
         parameters=[{
                 'target_cloud_path':'/home/meteor/ROS2/MickRobot/Graduation_project_ws/src/pointcloud_refinement/models/charger_success.npy',
-                'voxel_size': 0.005,
-                'max_correspondence_distance': 0.2,
-                'icp_iterations': 200,
-                'refinement_threshold': 0.05,
-                'min_distance': 0.3,
-                'max_distance': 1.5,
-                'publish_rate': 10.0,
-                'fitness_threshold': 0.3,
+                'voxel_size': 0.005,               # 下采样体素大小 (5mm，精度极高)
+                'max_correspondence_distance': 0.3, # ICP最大对应距离，越小越精准但越容易丢失
+                'icp_iterations': 100,             # ICP最大迭代次数
+                'fitness_threshold': 0.1,          # 匹配度阈值 (高于此值才算有效)
                 'enable_debug': True,
         }]
     )
