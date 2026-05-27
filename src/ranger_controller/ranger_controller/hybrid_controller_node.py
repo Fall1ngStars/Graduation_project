@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-# hybrid_docking_controller.py
-# 契合课题：分层多模态视觉引导 + 柔顺对接 + 状态机恢复机制 + 融合里程计抗遮挡 + 充满驶离
-
+# hybrid_controller_node.py
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist, PoseStamped, PoseWithCovarianceStamped
